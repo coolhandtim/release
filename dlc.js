@@ -89,6 +89,9 @@ postMessage({dlc:{
 	"The Walking Dead\u2122: Survival Instinct": [
 		"The Walking Dead\u2122: Survival Instinct \u2013 Walker Herd Survival Pack"
 	], 
+	"The Walking Dead": [
+		"The Walking Dead: 400 Days"
+	], 
 	"Archeblade": [
 		"Archeblade: Starter Pack"
 	], 
@@ -196,6 +199,13 @@ postMessage({dlc:{
 		"Worms Revolution: Funfair DLC", 
 		"Worms Revolution Season Pass"
 	], 
+	"Train Simulator 2014": [
+		"Freightliner Class 66 v2.0 Loco Add-On", 
+		"GEML Class 90 Loco Add-On"
+		"Great Eastern Main Line London-Ipswich Route Add-On", 
+		"Portsmouth Direct Line Route Add-On", 
+		"South West Trains Class 444 EMU Add-On"
+	], 
 	"Front Mission Evolved": [
 		"Front Mission Evolved: Last Stand", 
 		"Front Mission Evolved: Map Pack", 
@@ -220,6 +230,10 @@ postMessage({dlc:{
 		"Batman Arkham City: Arkham City Skins Pack", 
 		"Batman Arkham City: Robin Bundle", 
 		"Batman Arkham City: Nightwing Bundle"
+	], 
+	"Batman: Arkham Origins": [
+		"Batman: Arkham Origins - New Millennium Skins Pack", 
+		"Batman: Arkham Origins - Infinite Earths Skin Pack"
 	], 
 	"Wargame: European Escalation": [
 		"Wargame: European Escalation - ''Fatal Error'' (Free DLC)", 
@@ -1372,6 +1386,11 @@ postMessage({dlc:{
 	"XCOM: Enemy Unknown": [
 		"XCOM: Enemy Unknown - Slingshot Pack", 
 		"XCOM: Enemy Unknown - Elite Soldier Pack"
+	], 
+	"The Bureau: XCOM Declassified": [
+		"The Bureau: XCOM Declassified - Code Breakers", 
+		"The Bureau: XCOM Declassified - Light Plasma Pistol", 
+		"The Bureau: XCOM Declassified - Hanger 6 R&D"
 	], 
 	"Star Trek": [
 		"Star Trek: Elite Officer Pack "
