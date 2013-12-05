@@ -232,6 +232,7 @@ postMessage({dlc:{
 		"Batman Arkham City: Nightwing Bundle"
 	], 
 	"Batman: Arkham Origins": [
+		"Batman: Arkham Origins - Black Mask Challenge Pack", 
 		"Batman: Arkham Origins - New Millennium Skins Pack", 
 		"Batman: Arkham Origins - Infinite Earths Skin Pack"
 	], 
