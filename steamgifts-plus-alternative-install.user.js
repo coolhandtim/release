@@ -14,6 +14,6 @@
 if (window.top == window) {
 	var steamgiftsPlus = document.createElement('script');
 	steamgiftsPlus.type = 'text/javascript';
-	steamgiftsPlus.src = 'https://raw.github.com/psyren89/release/master/steamgifts-plus.js';
+	steamgiftsPlus.src = 'http://github.com/psyren89/release/raw/master/steamgifts-plus.js';
 	document.body.appendChild(steamgiftsPlus);
 }
