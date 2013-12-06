@@ -448,6 +448,9 @@ postMessage({dlc:{
 		"Assassin\u2019s Creed\u00ae III \u2013 The Hidden Secrets Pack", 
 		"Assassin\u2019s Creed\u00ae III Season Pass"
 	], 
+	"Assassins Creed IV Black Flag": [
+		"Assassins Creed IV Black Flag - Season Pass"
+	], 
 	"Fallen Enchantress": [
 		"Fallen Enchantress Map Pack"
 	], 
