@@ -201,7 +201,7 @@ postMessage({dlc:{
 	], 
 	"Train Simulator 2014": [
 		"Freightliner Class 66 v2.0 Loco Add-On", 
-		"GEML Class 90 Loco Add-On"
+		"GEML Class 90 Loco Add-On", 
 		"Great Eastern Main Line London-Ipswich Route Add-On", 
 		"Portsmouth Direct Line Route Add-On", 
 		"South West Trains Class 444 EMU Add-On"
