@@ -234,7 +234,8 @@ postMessage({dlc:{
 	"Batman: Arkham Origins": [
 		"Batman: Arkham Origins - Black Mask Challenge Pack", 
 		"Batman: Arkham Origins - New Millennium Skins Pack", 
-		"Batman: Arkham Origins - Infinite Earths Skin Pack"
+		"Batman: Arkham Origins - Infinite Earths Skin Pack", 
+		"Batman: Arkham Origins - Initiation"
 	], 
 	"Wargame: European Escalation": [
 		"Wargame: European Escalation - ''Fatal Error'' (Free DLC)", 
@@ -503,6 +504,9 @@ postMessage({dlc:{
 		"Gotham City Impostors Free to Play: Office Bat ", 
 		"Gotham City Impostors Free to Play: Premium Card Pack 2 ", 
 		"Gotham City Impostors Free to Play: Harlette "
+	], 
+	"Mark of the Ninja": [
+		"Mark of the Ninja: Special Edition DLC"
 	], 
 	"Q.U.B.E.": [
 		"Against the Qlock", 
