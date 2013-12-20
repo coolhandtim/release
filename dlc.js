@@ -113,6 +113,9 @@ postMessage({dlc:{
 		"Darksiders II - Argul's Tomb", 
 		"Darksiders II - Death Rides"
 	], 
+	"Electronic Super Joy" : [
+		"Electronic Super Joy - Bonus Content Pack!"
+	], 
 	"F1 RACE STARS&trade;": [
 		"F1 Race Stars - Canada Track", 
 		"F1 Race Stars - India Track", 
