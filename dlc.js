@@ -1446,7 +1446,8 @@ postMessage({dlc:{
 		"Serious Sam 3: Jewel of the Nile"
 	], 
 	"The Dream Machine (Chapter 1 and 2)": [
-		"The Dream Machine:  Chapter 3"
+		"The Dream Machine:  Chapter 3", 
+		"The Dream Machine: Chapter 4"
 	], 
 	"Burn Zombie Burn!": [
 		"Burn Zombie Burn!: Soundtrack"
