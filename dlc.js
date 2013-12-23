@@ -1402,7 +1402,7 @@ postMessage({dlc:{
 	"The Bureau: XCOM Declassified": [
 		"The Bureau: XCOM Declassified - Code Breakers", 
 		"The Bureau: XCOM Declassified - Light Plasma Pistol", 
-		"The Bureau: XCOM Declassified - Hanger 6 R\u0026D"
+		"The Bureau: XCOM Declassified - Hanger 6 R&D"
 	], 
 	"Star Trek": [
 		"Star Trek: Elite Officer Pack "
