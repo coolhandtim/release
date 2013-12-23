@@ -238,7 +238,8 @@ postMessage({dlc:{
 		"Batman: Arkham Origins - Black Mask Challenge Pack", 
 		"Batman: Arkham Origins - New Millennium Skins Pack", 
 		"Batman: Arkham Origins - Infinite Earths Skin Pack", 
-		"Batman: Arkham Origins - Initiation"
+		"Batman: Arkham Origins - Initiation", 
+		"Batman: Arkham Origins - Season Pass"
 	], 
 	"Wargame: European Escalation": [
 		"Wargame: European Escalation - ''Fatal Error'' (Free DLC)", 
