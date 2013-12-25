@@ -1495,7 +1495,8 @@ postMessage({dlc:{
 		"Crusader Kings II: Songs of the Holy Land", 
 		"Crusader Kings II: Songs of Faith", 
 		"Crusader Kings II: Mongol Faces", 
-		"Crusader Kings II: Dynasty Shields"
+		"Crusader Kings II: Dynasty Shields", 
+		"Crusader Kings II: Dynasty Shield III"
 	], 
 	"Dogfight 1942": [
 		"Dogfight 1942 Fire Over Africa", 
