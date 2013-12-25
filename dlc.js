@@ -1823,6 +1823,11 @@ postMessage({dlc:{
 	"Waking Mars": [
 		"Waking Mars - Soundtrack"
 	], 
+	"Lords of Football": [
+		"Lords of Football: United States", 
+		"Lords of Football: Super Training", 
+		"Lords of Football: Eastern Europe"
+	], 
 	"Madballs in Babo:Invasion ": [
 		"Madballs Holiday Skin Rollup", 
 		"Madballs Scorched Clan Skins", 
