@@ -207,7 +207,8 @@ postMessage({dlc:{
 		"GEML Class 90 Loco Add-On", 
 		"Great Eastern Main Line London-Ipswich Route Add-On", 
 		"Portsmouth Direct Line Route Add-On", 
-		"South West Trains Class 444 EMU Add-On"
+		"South West Trains Class 444 EMU Add-On", 
+		"Isle of Wight Route Add-On"
 	], 
 	"Front Mission Evolved": [
 		"Front Mission Evolved: Last Stand", 
@@ -402,7 +403,9 @@ postMessage({dlc:{
 		"Empire: Total War&trade; - The Warpath Campaign", 
 		"Empire: Total War&trade; - Elite Units of the West", 
 		"Empire: Total War&trade; - Special Forces Units & Bonus Content",
-		"Empire: Total War - Downloadable Content Pack"
+		"Empire: Total War - Downloadable Content Pack", 
+		"Empire: Total War - The Warpath Campaign", 
+		"Empire: Total War - Elite Units of the West"
 	], 
 	"The Cave": [
 		"The Cave: Soundtrack"
@@ -820,7 +823,8 @@ postMessage({dlc:{
 		"Total War: Shogun 2 - Fall of the Samurai \u2013 The Saga Faction Pack", 
 		"Total War: Shogun 2 - Fall of the Samurai \u2013 The Sendai Faction Pack", 
 		"Total War: Shogun 2 - Fall of the Samurai \u2013 The Tsu Faction Pack", 
-		"Total War: Shogun 2 - Fall of the Samurai Blood Pack"
+		"Total War: Shogun 2 - Fall of the Samurai Blood Pack", 
+		"Total War: Shogun 2 - Fall of the Samurai The Tsu Faction Pack"
 	], 
 	"RAGE": [
 		"Rage: The Scorchers\u2122"
@@ -1496,7 +1500,10 @@ postMessage({dlc:{
 		"Crusader Kings II: Songs of Faith", 
 		"Crusader Kings II: Mongol Faces", 
 		"Crusader Kings II: Dynasty Shields", 
-		"Crusader Kings II: Dynasty Shield III"
+		"Crusader Kings II: Dynasty Shield III", 
+		"Crusader Kings II: Celtic Portraits", 
+		"Crusader Kings II: Celtic Unit Pack", 
+		"Crusader Kings II: Europa Universalis IV Converter"
 	], 
 	"Dogfight 1942": [
 		"Dogfight 1942 Fire Over Africa", 
