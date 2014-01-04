@@ -858,6 +858,9 @@ postMessage({dlc:{
 		"Saints Row: The Third - Steelport Gangs Pack", 
 		"Saints Row: The Third - Bloodsucker Pack"
 	], 
+	"Saints Row IV": [
+		"Saints Row IV: Season Pass"
+	], 
 	"EverQuest\u00ae II Free-To-Play. Your Way.\u2122 ": [
 		"EverQuest II: Chains of Eternity "
 	], 
