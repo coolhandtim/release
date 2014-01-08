@@ -43,6 +43,9 @@ postMessage({dlc:{
 	"MicroVolts": [
 		"MicroVolts - Micro Bundle"
 	], 
+	"Natural Selection 2": [
+		"Natural Selection 2 Deluxe Edition Upgrade"
+	], 
 	"Aliens: Colonial Marines": [
 		"Aliens: Colonial Marines - Movie Map Pack", 
 		"Aliens: Colonial Marines Preorder Incentive DLC 2", 
@@ -859,7 +862,8 @@ postMessage({dlc:{
 		"Saints Row: The Third - Bloodsucker Pack"
 	], 
 	"Saints Row IV": [
-		"Saints Row IV: Season Pass"
+		"Saints Row IV: Season Pass", 
+		"Saints Row IV: Child's Play Pack"
 	], 
 	"EverQuest\u00ae II Free-To-Play. Your Way.\u2122 ": [
 		"EverQuest II: Chains of Eternity "
@@ -1861,6 +1865,10 @@ postMessage({dlc:{
 	"Sword of the Stars II: Enhanced Edition": [
 		"Sword of the Stars II Soundtrack"
 	], 
+	"Sword of the Stars: The Pit": [
+		"Sword of the Stars: The Pit - Gold Edition DLC", 
+		"Sword of the Stars: The Pit - Mind Games"
+	], 
 	"Anno 2070\u2122": [
 		"Anno 2070\u2122 - Deep Ocean", 
 		"Anno 2070\u2122  - The Nordamark Line Package", 
@@ -2260,7 +2268,8 @@ postMessage({dlc:{
 		"Men of War: Assault Squad - MP Supply Pack Charlie", 
 		"Men of War: Assault Squad - MP Supply Pack Bravo", 
 		"Men of War: Assault Squad - Skirmish Pack", 
-		"Men of War: Assault Squad - MP Supply Pack Alpha"
+		"Men of War: Assault Squad - MP Supply Pack Alpha", 
+		"Men of War: Assault Squad - DLC Pack"
 	], 
 	"Two Worlds II": [
 		"Two Worlds II - Pirates of the Flying Fortress "
