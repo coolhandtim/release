@@ -2430,7 +2430,7 @@
 		
 			var scriptDLC = document.createElement('script');
 			scriptDLC.type = 'text/javascript';
-			scriptDLC.src = 'http://github.com/psyren89/release/raw/master/dlc.js';
+			scriptDLC.src = 'http://github.com/psyren89/release/raw/master/dlc-mini.js';
 			document.head.appendChild(scriptDLC);
 		}
 	}
