@@ -1076,7 +1076,7 @@
 			
 			if (i+1 == array.length) {
 				if (storedTopic['comment_count'] == null) {
-					storedTopic['comment_count'] == topicCommentCount;
+					storedTopic['comment_count'] = topicCommentCount;
 				}
 				
 				if (page['id'] != 'replies') {
@@ -1216,7 +1216,7 @@
 				storedTopic = {};
 			}
 			if (storedTopic['comment_count'] == null) {
-				storedTopic['comment_count'] == topicCommentCount;
+				storedTopic['comment_count'] = topicCommentCount;
 			}
 			
 			//Mark replied to topics.
