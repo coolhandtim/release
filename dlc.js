@@ -461,7 +461,9 @@ postMessage({dlc:{
 	], 
 	"Assassins Creed IV Black Flag": [
 		"Assassins Creed IV Black Flag - Season Pass", 
-		"Assassins Creed IV Black Flag - Death Vessel Pack"
+		"Assassins Creed IV Black Flag - Death Vessel Pack", 
+		"Assassins Creed IV Black Flag - Time saver: Technology Pack",
+		"Assassins CreedIV Black Flag - Illustrious Pirates Pack" //not a typo!
 	], 
 	"Fallen Enchantress": [
 		"Fallen Enchantress Map Pack"
@@ -2027,6 +2029,11 @@ postMessage({dlc:{
 		"Damage Inc P-80 \"Bolt\" Shooting Star", 
 		"Damage Inc F4U-4 \"Reaper\" Corsair", 
 		"Damage Inc F6F-5N \"Crusader\" Hellcat"
+	], 
+	"Euro Truck Simulator 2": [
+		"Euro Truck Simulator 2 - Going East!", 
+		"Euro Truck Simulator 2 - Halloween Paint Jobs Pack",
+		"Euro Truck Simulator 2 - Ice Cold Paint Jobs Pack"
 	], 
 	"Iron Front: Liberation 1944": [
 		"Iron Front : D-Day 1944 DLC"
