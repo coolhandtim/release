@@ -10,3 +10,11 @@ before_script:
 script:
   - java -jar $CLOSURE_JAR --js dlc.js --js_output_file dlc.min.js --language_in=ECMASCRIPT5 --compilation_level ADVANCED_OPTIMIZATIONS
   - java -jar $CLOSURE_JAR --js steamgifts-plus.js --js_output_file steamgifts-plus.min.js --language_in=ECMASCRIPT5 --compilation_level ADVANCED_OPTIMIZATIONS
+
+after_script:
+  - git status
+  - git add dlc.min.js
+  - git add steamgifts-plus.min.js
+  - git commit -m "Auto-generated minified js"
+  - git tag "auto-gen"
+  - git push --tags origin master
