@@ -7,6 +7,7 @@ before_script:
 - wget http://dl.google.com/closure-compiler/compiler-latest.zip && unzip compiler-latest.zip
   -d vendor/java/compiler
 - export CLOSURE_JAR=vendor/java/compiler/compiler.jar
+- git checkout "${TRAVIS_BRANCH}"
 
 script:
 - java -jar $CLOSURE_JAR --js dlc.js --js_output_file dlc.min.js --language_in=ECMASCRIPT5
