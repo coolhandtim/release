@@ -5090,11 +5090,9 @@
 			}
 			end = grafsOut.length;
 
-      var n = -1;
-
 			for (var i=0; i<end; i++) {
-				while ((n = grafsOut[i].search(/~K(\d+)K/)) >= 0) {
-					var blockText = g_html_blocks[n];
+				while (grafsOut[i].search(/~K(\d+)K/) >= 0) {
+					var blockText = g_html_blocks[RegExp.$1];
 					blockText = blockText.replace(/\$/g,"$$$$"); // Escape any dollar signs
 					grafsOut[i] = grafsOut[i].replace(/~K\d+K/,blockText);
 				}
