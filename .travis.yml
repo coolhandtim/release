@@ -21,8 +21,7 @@ after_success:
 - git add dlc.min.js
 - git add steamgifts-plus.min.js
 - git commit -m "Auto-generated minified js"
-- git tag "auto-gen"
-- git push --tags https://${GH_TOKEN}@github.com/psyren89/release.git
+- git push https://${GH_TOKEN}@github.com/psyren89/release.git
 
 env:
   global:
