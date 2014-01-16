@@ -1,23 +1,29 @@
 language: java
 jdk:
 - oraclejdk7
+
 before_script:
 - mkdir -p vendor/java
 - wget http://dl.google.com/closure-compiler/compiler-latest.zip && unzip compiler-latest.zip
   -d vendor/java/compiler
 - export CLOSURE_JAR=vendor/java/compiler/compiler.jar
+
 script:
 - java -jar $CLOSURE_JAR --js dlc.js --js_output_file dlc.min.js --language_in=ECMASCRIPT5
   --compilation_level ADVANCED_OPTIMIZATIONS
 - java -jar $CLOSURE_JAR --js steamgifts-plus.js --js_output_file steamgifts-plus.min.js
   --language_in=ECMASCRIPT5 --compilation_level ADVANCED_OPTIMIZATIONS
-after_script:
+
+after_success:
+- git config user.name "${GIT_NAME}"
+- git config user.email "${GIT_EMAIL}"
 - git status
 - git add dlc.min.js
 - git add steamgifts-plus.min.js
 - git commit -m "Auto-generated minified js"
 - git tag "auto-gen"
-- git push --tags origin master
+- git push --tags https://${GH_TOKEN}@github.com/psyren89/release.git
+
 env:
   global:
     secure: Ie78jVXdvkTTxZ/gDoSl44EFixI5BIJ4SPikyn5VsI/Pqk6A9577sPJUgrwgVGocWVTTYI4Lqxfid8dnNV1XIiZjDb/BX509wiAFPngB0ONH1chicvlAc3R/Nwg25ImdCuoQqhwjqYhyezsphLKzAsLi+/Vvdsz5+EsOnqKYMDg=
