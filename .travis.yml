@@ -4,16 +4,13 @@ jdk:
 
 before_script:
 - mkdir -p vendor/java
-- wget http://dl.google.com/closure-compiler/compiler-latest.zip && unzip compiler-latest.zip
-  -d vendor/java/compiler
+- wget http://dl.google.com/closure-compiler/compiler-latest.zip && unzip compiler-latest.zip -d vendor/java/compiler
 - export CLOSURE_JAR=vendor/java/compiler/compiler.jar
 - git checkout "${TRAVIS_BRANCH}"
 
 script:
 - java -jar $CLOSURE_JAR --js dlc.js --js_output_file dlc.min.js --language_in=ECMASCRIPT5
-  --compilation_level ADVANCED_OPTIMIZATIONS
-- java -jar $CLOSURE_JAR --js steamgifts-plus.js --js_output_file steamgifts-plus.min.js
-  --language_in=ECMASCRIPT5 --compilation_level ADVANCED_OPTIMIZATIONS
+- java -jar $CLOSURE_JAR --js steamgifts-plus.js --js_output_file steamgifts-plus.min.js --language_in=ECMASCRIPT5
 
 after_success:
 - git config user.name "${GIT_NAME}"
