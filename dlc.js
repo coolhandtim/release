@@ -2355,6 +2355,11 @@ postMessage({dlc:{
 	"Braid": [
 		"Braid Soundtrack"
 	], 
+	"Company of Heroes 2": [
+		"Company of Heroes 2 - Southern Fronts Mission Pack", 
+		"Company of Heroes 2 - Victory at Stalingrad Mission Pack", 
+		"Company of Heroes 2 - Case Blue Mission Pack"
+	], 
 	"Guardians of Graxia": [
 		"Guardians of Graxia: Elves & Dwarves", 
 		"Guardians of Graxia Map Pack"
