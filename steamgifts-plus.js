@@ -2223,7 +2223,7 @@
 		<div class="sgpFilteredGamesListLibrary" style="margin-top:10px;"></div>\
 		</div>').appendTo('.invites', '.wrapper').hide();
 		
-		$('.sgpFilteredGamesList').append('<div id="sgpFilteredGamesListCustom"></div><div class="divider" style="margin-bottom: 0;"></div><div class="clear_both"></div>');
+		$('.sgpFilteredGamesList').append('<div id="sgpFilteredGamesListCustom" style="overflow: hidden;"></div><div class="divider" style="margin-bottom: 0;"></div><div class="clear_both"></div>');
 		
 		$('.sgpFilteredGamesListLibrary').append('<div class="divider" style="margin-bottom: 7px;"></div><div class="important"><strong style="color:#4F565A;"><span style="color: #8BBA65;"><img style="margin-bottom: -2px; width: 12px; height: 12px;" src="http://www.steamgifts.com/img/verify_success.png"> Enabled</span> Library Filters</strong></div><div class="clear_both"></div>\
 		<div id="sgpFilteredGamesListLibraryEnabled"></div></div><div class="divider" style="margin-bottom: 0;"></div><div class="clear_both"></div>\
@@ -3752,7 +3752,7 @@
 		<div class="important"><div class="sgpCheckbox' + configFilterCustomEnabled + '" id="gi_f_enabled"> Custom Filters</div> - Add games or partial game names to filter. <i>Case insensitive. Use * as a wildcard.</i></div>\
 		<input type="text" class="sgpInput" id="sgpFilteredGamesAddFilter" name="Giveaway name to filter. Case Insensitive." value="Giveaway name to filter. Case Insensitive." size="50"> <a class="sgpAddListItem" id="sgpFilterGame" href="">Add to Filter</a>\
 		<div class="relative_dropdown" style="width:150px; padding-top:7px;"><div class="absolute_dropdown" style="width:150px;"><div class="heading" style="font-size:12px; margin-top:1px; margin-bottom:1px;"><a href="" style="padding-left:15px; padding-right:25px;">Import / Export</a></div><div class="items" style="display: none;"><div class="item" style="cursor:pointer;"><a id="sgpFilterExportSGP">Export SteamGifts Plus</a></div><div class="item" style="cursor:pointer;"><a id="sgpFilterImportSGP">Import SteamGifts Plus</a></div><div class="item" style="cursor:pointer;"><a id="sgpFilterImportSGE">Import Zo\'s Addon (SGE)</a></div></div></div></div>\
-		<div style="width: 100%; max-height: 110px; overflow:scroll; style="margin-top:10px;""><div id="sgpFilteredGamesListCustom"></div></div>\
+		<div style="width: 100%; max-height: 110px; overflow-y: scroll; overflow-x: hidden; margin-top:10px;"><div id="sgpFilteredGamesListCustom"></div></div>\
 		<div class="important"><div class="sgpCheckbox' + configFilterLibraryEnabled + '" id="gi_f_library_enabled"> Library Filters</div> - Filters games in your library. <i>Filtering for specific library games can enabled or disabled.</i><br><strong style="color:#DD7070;"><img style="margin-bottom:-3px;" src="http://www.steamgifts.com/img/bullet_reported.png"><a href="http://www.steamgifts.com/filter">SteamGifts Filter</a> must be disabled to use SteamGifts Plus Library Filtering.</strong></div>\
 		<div class="important"><strong style="color:#4F565A;"><span style="color: #8BBA65;"><img style="margin-bottom: -2px; width: 12px; height: 12px;" src="http://www.steamgifts.com/img/verify_success.png"> Enabled</span> Library Filters</strong></div><div class="clear_both"></div>\
 		<div style="width: 100%; max-height: 110px; overflow:scroll; style="margin-top:10px;""><div id="sgpFilteredGamesListLibraryEnabled" style="margin-top:10px;"></div></div>\
@@ -4239,6 +4239,14 @@
 				color: #F3ACAC;\
 				text-shadow: none;\
 			}\
+      .sgpFilteredGame {\
+        width: 31%;\
+        position: relative;\
+      }\
+      .sgpRemoveListItem {\
+        position: absolute;\
+        right: 5px;\
+      }\
 			span.sgpFilterWildcard{\
 				color: #AB00FF;\
 				font-weight: bold;\
@@ -4262,7 +4270,7 @@
 				color: #636E75;\
 			}\
 			.sgpProfileTagStaff{\
-				posititon: relative;\
+				position: relative;\
 				text-align: center;\
 				z-index: -1;\
 				float: left;\
