@@ -1985,7 +1985,7 @@
 			}
 			
 			//Add giveaway search.
-			$('.sub_navigation:first>h1').after('<input type="text" class="sgpInput" id="sgpSearchGiveawaysInput" style="margin-top: 2px; margin-left: 5px; background-color: #FDFDFD; background-image: url(http://www.steamgifts.com/img/search_icon.png); background-position: right center; background-repeat: no-repeat; display: inline-block;" name="Search giveaways..." value="Search giveaways..." size="40"> <a href="" id="sgpSearchGiveawaysCancel" style="display: inline-block;">Cancel</a><div id="sgpGiveawayDropdowns" style="display: inline-block; float: right;"></div>');
+			$('.sub_navigation:first>h1').after('<input type="text" class="sgpInput" id="sgpSearchGiveawaysInput" style="margin-top: 2px; margin-left: 5px; background-color: #FDFDFD; background-image: url(http://www.steamgifts.com/img/search_icon.png); background-position: right center; background-repeat: no-repeat; display: inline-block;" name="Search giveaways..." value="Search giveaways..." size="40"> <a href="" id="sgpSearchGiveawaysCancel" style="display: inline-block;">Cancel</a><div id="sgpGiveawayDropdowns" style="display: inline-block; float: none !important; position: relative; bottom: 18px; left: 295px;"></div>');
 		}
 		
 		//Post spacing.
