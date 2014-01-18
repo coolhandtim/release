@@ -3755,9 +3755,9 @@
 		<div style="width: 100%; max-height: 110px; overflow-y: scroll; overflow-x: hidden; margin-top:10px;"><div id="sgpFilteredGamesListCustom"></div></div>\
 		<div class="important"><div class="sgpCheckbox' + configFilterLibraryEnabled + '" id="gi_f_library_enabled"> Library Filters</div> - Filters games in your library. <i>Filtering for specific library games can enabled or disabled.</i><br><strong style="color:#DD7070;"><img style="margin-bottom:-3px;" src="http://www.steamgifts.com/img/bullet_reported.png"><a href="http://www.steamgifts.com/filter">SteamGifts Filter</a> must be disabled to use SteamGifts Plus Library Filtering.</strong></div>\
 		<div class="important"><strong style="color:#4F565A;"><span style="color: #8BBA65;"><img style="margin-bottom: -2px; width: 12px; height: 12px;" src="http://www.steamgifts.com/img/verify_success.png"> Enabled</span> Library Filters</strong></div><div class="clear_both"></div>\
-		<div style="width: 100%; max-height: 110px; overflow:scroll; style="margin-top:10px;""><div id="sgpFilteredGamesListLibraryEnabled" style="margin-top:10px;"></div></div>\
+		<div style="width: 100%; max-height: 110px; overflow-y:scroll; overflow-x: hidden; margin-top:10px;"><div id="sgpFilteredGamesListLibraryEnabled" style="margin-top:10px;"></div></div>\
 		<div class="important"><strong style="color:#4F565A;"><span style="color: #DD7070;"><img style="margin-bottom: -2px; width: 12px; height: 12px;" src="http://www.steamgifts.com/img/verify_error.png"> Disabled</span> Library Filters</strong></div><div class="clear_both"></div>\
-		<div style="width: 100%; max-height: 110px; overflow:scroll; style="margin-top:10px;""><div id="sgpFilteredGamesListLibraryDisabled" style="margin-top:10px;"></div></div>\
+		<div style="width: 100%; max-height: 110px; overflow-y:scroll; overflow-x: hidden; margin-top:10px;"><div id="sgpFilteredGamesListLibraryDisabled" style="margin-top:10px;"></div></div>\
 		</div></div></div></div></div>');
 	
 		loadGameFilters();
