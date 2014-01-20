@@ -6,6 +6,12 @@ postMessage({dlc:{
 		"PAYDAY\u2122 The Heist: Wolfpack DLC", 
 		"PAYDAY: The Heist Soundtrack"
 	], 
+	"PAYDAY 2": [
+		"PAYDAY 2: A Merry Payday Christmas Soundtrack", 
+		"PAYDAY 2: Gage Weapon Pack \u002301", 
+		"PAYDAY 2: Armored Transport", 
+		"PAYDAY 2 Official Soundtrack"
+	], 
 	"The Sims\u2122 3": [
 		"The Sims 3: Supernatural", 
 		"The Sims 3 70's, 80's and 90's", 
@@ -1566,7 +1572,9 @@ postMessage({dlc:{
 		"Awesomenauts - Bumble Gnaw", 
 		"Awesomenauts - Disco Voltar", 
 		"Awesomenauts - Expendable Clunk", 
-		"Awesomenauts: Official Soundtrack"
+		"Awesomenauts: Official Soundtrack", 
+		"Awesomenauts - Cluck", 
+		"Awesomenauts: Starstorm"
 	], 
 	"The Sims Medieval": [
 		"The Sims Medieval&trade;: Pirates & Nobles"
