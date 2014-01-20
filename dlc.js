@@ -871,7 +871,24 @@ postMessage({dlc:{
 	], 
 	"Saints Row IV": [
 		"Saints Row IV: Season Pass", 
-		"Saints Row IV: Child's Play Pack"
+		"Saints Row IV: Child's Play Pack", 
+		"Saints Row IV - How the Saints Save Christmas", 
+		"Saints Row IV - Hey Ash Whatcha Playin? Pack", 
+		"Saints Row IV - Element of Destruction Pack", 
+		"Saints Row IV - Zinyak Attack Pack", 
+		"Saints Row IV - Pirate's Booty Pack", 
+		"Saints Row IV - The Super Saints Pack", 
+		"Saints Row IV - Enter The Dominatrix", 
+		"Saints Row IV - GAT V Pack", 
+		"Saints Row IV - Wild West Pack", 
+		"Saints Row IV: Dubstep Gun (Remix) Pack", 
+		"Saints Row IV: Presidential Pack", 
+		"Saints Row IV: Grass Roots Pack", 
+		"Saints Row IV: The Executive Privilege Pack", 
+		"Saints Row IV: Commander-In-Chief Pack", 
+		"Saints Row IV: Volition Comics Pack", 
+		"Saints Row IV: Brady Games Pack", 
+		"Saints Row IV - Anime Pack"
 	], 
 	"EverQuest\u00ae II Free-To-Play. Your Way.\u2122 ": [
 		"EverQuest II: Chains of Eternity "
