@@ -80,7 +80,8 @@ postMessage({dlc:{
 		"Max Payne 3: Special Edition Pack", 
 		"Max Payne 3: Silent Killer Loadout Pack", 
 		"Max Payne 3: Classic Max Payne Character", 
-		"Max Payne 3: Pill Bottle Item"
+		"Max Payne 3: Pill Bottle Item", 
+		"Max Payne 3: Deadly Force Burst"
 	], 
 	"SkyDrift": [
 		"SkyDrift: Gladiator Multiplayer Pack", 
