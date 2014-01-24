@@ -12,6 +12,9 @@ postMessage({dlc:{
 		"PAYDAY 2: Armored Transport", 
 		"PAYDAY 2 Official Soundtrack"
 	], 
+	"Loren the Amazon Princess": [
+		"Loren The Amazon Princess - The Castle Of N'Mar DLC"
+	], 
 	"The Sims\u2122 3": [
 		"The Sims 3: Supernatural", 
 		"The Sims 3 70's, 80's and 90's", 
@@ -373,7 +376,7 @@ postMessage({dlc:{
 		"Tony Hawk's Pro Skater\u00ae HD - Revert Pack"
 	], 
 	"Dead Island Riptide": [
-		"Riptide DLC 3", 
+		"Dead Island: Riptide - Survivor Pack", 
 		"Dead Island: Riptide - Fashion Victim"
 	], 
 	"Papo & Yo": [
