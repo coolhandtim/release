@@ -63,7 +63,8 @@ postMessage({dlc:{
 		"Aliens: Colonial Marines Preorder Incentive DLC 3", 
 		"Aliens: Colonial Marines - Reconnaissance Pack", 
 		"Aliens: Colonial Marines: Season Pass", 
-		"Aliens: Colonial Marines DLC 1"
+		"Aliens: Colonial Marines DLC 1", 
+		"Aliens: Colonial Marines SHARP Sticks"
 	], 
 	"Moon Breakers": [
 		"Moon Breakers:  Big Cheese Bundle DLC", 
@@ -1609,6 +1610,9 @@ postMessage({dlc:{
 	], 
 	"Tom Clancy's H.A.W.X.&reg; 2": [
 		"Tom Clancy's H.A.W.X.&reg; 2 - Open Skies Expansion Pack"
+	], 
+	"Tom Clancy's Splinter Cell Conviction Deluxe Edition": [
+		"Tom Clancy's Splinter Cell Conviction Insurgency Pack"
 	], 
 	"Primal Carnage": [
 		"Primal Carnage - Dinosaur Skin Pack 3", 
