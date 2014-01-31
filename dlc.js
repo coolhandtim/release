@@ -357,6 +357,9 @@ postMessage({dlc:{
 		"Stealth Bastard Deluxe - The Teleporter Chambers", 
 		"Stealth Bastard Deluxe - Soundtrack"
 	], 
+	"Teleglitch: Die More Edition": [
+		"Teleglitch: Guns and Tunes"
+	], 
 	"AI War: Fleet Command": [
 		"AI War: Vengeance Of The Machine", 
 		"AI War: Ancient Shadows", 
@@ -484,6 +487,9 @@ postMessage({dlc:{
 	], 
 	"Street Fighter X Tekken: Gems Assist 3 ": [
 		"Street Fighter X Tekken: Gems Assist 3 "
+	], 
+	"The Typing of The Dead: Overkill": [
+		"The Typing of The Dead: Overkill - Filth DLC"
 	], 
 	"FTL: Faster Than Light": [
 		"FTL: Faster Than Light - Soundtrack"
@@ -1439,7 +1445,8 @@ postMessage({dlc:{
 	], 
 	"XCOM: Enemy Unknown": [
 		"XCOM: Enemy Unknown - Slingshot Pack", 
-		"XCOM: Enemy Unknown - Elite Soldier Pack"
+		"XCOM: Enemy Unknown - Elite Soldier Pack", 
+		"XCOM: Enemy Within"
 	], 
 	"The Bureau: XCOM Declassified": [
 		"The Bureau: XCOM Declassified - Code Breakers", 
