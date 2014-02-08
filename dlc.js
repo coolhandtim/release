@@ -92,9 +92,9 @@ postMessage({dlc:{
 		"SkyDrift: Extreme Fighters Premium Airplane Pack"
 	], 
 	"SpellForce 2: Faith in Destiny": [
-		"SpellForce 2 - Faith in Destiny Scenario 3: The Last Stand ", 
-		"SpellForce 2 - Faith in Destiny Scenario 2: The Golden Fool ", 
-		"SpellForce 2 - Faith in Destiny Scenario 1: Flink's Secret Diary ", 
+		"SpellForce 2 - Faith in Destiny Scenario 3: The Last Stand", 
+		"SpellForce 2 - Faith in Destiny Scenario 2: The Golden Fool", 
+		"SpellForce 2 - Faith in Destiny Scenario 1: Flink's Secret Diary", 
 		"SpellForce 2 - Faith in Destiny - Digital Extras"
 	], 
 	"Unity of Command: Stalingrad Campaign": [
@@ -764,6 +764,9 @@ postMessage({dlc:{
 		"Fallout 3 - The Pitt", 
 		"Fallout 3 - Operation Anchorage"
 	], 
+	"Interstellar Marines": [
+		"Interstellar Marines - Spearhead Edition Upgrade"
+	], 
 	"Oil Rush": [
 		"Oil Rush Tower Defense Map Pack", 
 		"Oil Rush OST"
@@ -846,7 +849,8 @@ postMessage({dlc:{
 		"Total War: Shogun 2 - Fall of the Samurai \u2013 The Sendai Faction Pack", 
 		"Total War: Shogun 2 - Fall of the Samurai \u2013 The Tsu Faction Pack", 
 		"Total War: Shogun 2 - Fall of the Samurai Blood Pack", 
-		"Total War: Shogun 2 - Fall of the Samurai The Tsu Faction Pack"
+		"Total War: Shogun 2 - Fall of the Samurai The Tsu Faction Pack", 
+		"Total War: Shogun 2 - Fall of the Samurai – The Obama Faction Pack"
 	], 
 	"RAGE": [
 		"Rage: The Scorchers\u2122"
@@ -2024,6 +2028,9 @@ postMessage({dlc:{
 	], 
 	"Sonic & All-Stars Racing Transformed": [
 		"Sonic and All-Stars Racing Transformed: Metal Sonic & Outrun DLC"
+	], 
+	"BioShock 2": [
+		"BioShock 2: Minervas Den"
 	], 
 	"BioShock Infinite": [
 		"BioShock Infinite - Season Pass"
