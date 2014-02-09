@@ -1776,7 +1776,8 @@ postMessage({dlc:{
 		"Victoria II: A House Divided", 
 		"Victoria II: Interwar Planes Sprite Pack", 
 		"Victoria II: Interwar Artillery Sprite Pack", 
-		"Victoria II: Interwar Spritepack"
+		"Victoria II: Interwar Spritepack", 
+		"Victoria II: Interwar Cavalry Unit Pack"
 	], 
 	"Farming Simulator 2011": [
 		"Farming Simulator Farming Classics Pack 4", 
