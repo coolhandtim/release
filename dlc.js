@@ -1147,7 +1147,8 @@ postMessage({dlc:{
 		"Hearts of Iron III: British Vehicle Spritepack"
 	], 
 	"Cities in Motion 2": [
-		"Cities in Motion 2: Bus Mania"
+		"Cities in Motion 2: Bus Mania", 
+		"Cities in Motion 2: Lofty Landmarks"
 	], 
 	"Spiral Knights": [
 		"Spiral Knights: Guardians Armor Pack", 
