@@ -477,7 +477,8 @@ postMessage({dlc:{
 		"Assassins Creed IV Black Flag - Season Pass", 
 		"Assassins Creed IV Black Flag - Death Vessel Pack", 
 		"Assassins Creed IV Black Flag - Time saver: Technology Pack",
-		"Assassins CreedIV Black Flag - Illustrious Pirates Pack" //not a typo!
+		"Assassins CreedIV Black Flag - Illustrious Pirates Pack", //not a typo!
+		"Assassins Creed IV Black Flag Freedom Cry"
 	], 
 	"Fallen Enchantress": [
 		"Fallen Enchantress Map Pack"
@@ -986,7 +987,9 @@ postMessage({dlc:{
 	"Hacker Evolution Duality": [
 		"Hacker Evolution Duality Hardcore Music Pack", 
 		"Hacker Evolution Duality: Inception Part 2 DLC", 
-		"Hacker Evolution Duality: Inception DLC"
+		"Hacker Evolution Duality: Inception DLC", 
+		"Hacker Evolution Duality: Hardcore Package 1"
+		"Hacker Evolution Duality: Hardcore Package Part 2"
 	], 
 	"Game of Thrones ": [
 		"Game of Thrones - Beyond the Wall (Blood Bound) DLC", 
@@ -1163,6 +1166,9 @@ postMessage({dlc:{
 	], 
 	"APB Reloaded": [
 		"APB Reloaded: Urban Survival Pack"
+	], 
+	"Remember Me": [
+		"Remember Me: Combo Lab Pack DLC"
 	], 
 	"Ghostbusters: Sanctum of Slime": [
 		"Ghostbusters: Sanctum of Slime Challenge Pack DLC"
