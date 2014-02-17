@@ -988,7 +988,7 @@ postMessage({dlc:{
 		"Hacker Evolution Duality Hardcore Music Pack", 
 		"Hacker Evolution Duality: Inception Part 2 DLC", 
 		"Hacker Evolution Duality: Inception DLC", 
-		"Hacker Evolution Duality: Hardcore Package 1"
+		"Hacker Evolution Duality: Hardcore Package 1", 
 		"Hacker Evolution Duality: Hardcore Package Part 2"
 	], 
 	"Game of Thrones ": [
