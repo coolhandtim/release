@@ -127,8 +127,11 @@ postMessage({dlc:{
 		"Darksiders II - Argul's Tomb", 
 		"Darksiders II - Death Rides"
 	], 
-	"Electronic Super Joy" : [
+	"Electronic Super Joy": [
 		"Electronic Super Joy - Bonus Content Pack!"
+	], 
+	"Super House of Dead Ninjas": [
+		"Super House of Dead Ninjas: True Ninja Pack"
 	], 
 	"F1 RACE STARS&trade;": [
 		"F1 Race Stars - Canada Track", 
