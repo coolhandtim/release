@@ -100,8 +100,8 @@ postMessage({dlc:{
 	"Unity of Command: Stalingrad Campaign": [
 		"Unity of Command - Red Turn DLC"
 	], 
-	"The Walking Dead\u2122: Survival Instinct": [
-		"The Walking Dead\u2122: Survival Instinct \u2013 Walker Herd Survival Pack"
+	"The Walking Dead: Survival Instinct": [
+		"The Walking Dead: Survival Instinct Walker Herd Survival Pack"
 	], 
 	"The Walking Dead": [
 		"The Walking Dead: 400 Days"
