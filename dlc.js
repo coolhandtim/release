@@ -101,7 +101,8 @@ postMessage({dlc:{
 		"Unity of Command - Red Turn DLC"
 	], 
 	"The Walking Dead: Survival Instinct": [
-		"The Walking Dead: Survival Instinct Walker Herd Survival Pack"
+		"The Walking Dead: Survival Instinct Walker Herd Survival Pack", 
+		"The Walking Dead: Survival Instinct Walker Herd..."
 	], 
 	"The Walking Dead": [
 		"The Walking Dead: 400 Days"
@@ -257,7 +258,8 @@ postMessage({dlc:{
 		"Batman: Arkham Origins - New Millennium Skins Pack", 
 		"Batman: Arkham Origins - Infinite Earths Skin Pack", 
 		"Batman: Arkham Origins - Initiation", 
-		"Batman: Arkham Origins - Season Pass"
+		"Batman: Arkham Origins - Season Pass", 
+		"Batman: Arkham Origins - Online Supply Drop 1"
 	], 
 	"Wargame: European Escalation": [
 		"Wargame: European Escalation - ''Fatal Error'' (Free DLC)", 
