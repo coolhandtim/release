@@ -9,6 +9,7 @@ postMessage({dlc:{
 	"PAYDAY 2": [
 		"PAYDAY 2: A Merry Payday Christmas Soundtrack", 
 		"PAYDAY 2: Gage Weapon Pack \u002301", 
+		"PAYDAY 2: Gage Weapon Pack \u002302", 
 		"PAYDAY 2: Armored Transport", 
 		"PAYDAY 2 Official Soundtrack"
 	], 
@@ -57,14 +58,14 @@ postMessage({dlc:{
 	], 
 	"Aliens: Colonial Marines": [
 		"Aliens: Colonial Marines - Movie Map Pack", 
-		"Aliens: Colonial Marines Preorder Incentive DLC 2", 
-		"Aliens: Colonial Marines Preorder Incentive DLC 1", 
-		"Aliens: Colonial Marines Preorder Incentive DLC 4", 
-		"Aliens: Colonial Marines Preorder Incentive DLC 3", 
 		"Aliens: Colonial Marines - Reconnaissance Pack", 
+		"Aliens: Colonial Marines - Bug Hunt DLC", 
 		"Aliens: Colonial Marines: Season Pass", 
-		"Aliens: Colonial Marines DLC 1", 
-		"Aliens: Colonial Marines SHARP Sticks"
+		"Aliens: Colonial Marines: Stasis Interrupted", 
+		"Aliens: Colonial Marines SHARP Sticks", 
+		"Aliens: Colonial Marines Sawed-off Double Barrel Shotgun", 
+		"Aliens: Colonial Marines Collector's Edition Pack", 
+		"Aliens: Colonial Marines Limited Edition Pack"
 	], 
 	"Moon Breakers": [
 		"Moon Breakers:  Big Cheese Bundle DLC", 
@@ -340,7 +341,8 @@ postMessage({dlc:{
 		"Warhammer 40,000: Dawn of War II - Retribution Space Marines Race Pack", 
 		"Warhammer 40,000: Dawn of War II - Retribution Imperial Guard Race Pack", 
 		"Warhammer 40,000: Dawn of War II - Retribution Chaos Space Marines Race Pack", 
-		"Warhammer 40,000: Dawn of War II - Retribution Ork Race Pack"
+		"Warhammer 40,000: Dawn of War II - Retribution Ork Race Pack", 
+		"Warhammer 40,000: Dawn of War II - Retribution Tyranid Race Pack"
 	], 
 	"Pinball FX2": [
 		"Pinball FX2: Epic Quest Table", 
@@ -482,8 +484,14 @@ postMessage({dlc:{
 		"Assassins Creed IV Black Flag - Season Pass", 
 		"Assassins Creed IV Black Flag - Death Vessel Pack", 
 		"Assassins Creed IV Black Flag - Time saver: Technology Pack",
+		"Assassins Creed IV Black Flag - Time saver: Resources Pack",
+		"Assassins Creed IV Black Flag - Time saver: Collectibles Pack",
+		"Assassins Creed IV Black Flag - Time saver: Activities Pack",
 		"Assassins CreedIV Black Flag - Illustrious Pirates Pack", //not a typo!
-		"Assassins Creed IV Black Flag Freedom Cry"
+		"Assassins CreedIV Black Flag - MP Character Pack: Blackbeard's Wrath", //not a typo!
+		"Assassins Creed IV Black Flag Freedom Cry", 
+		"Assassins Creed IV Black Flag Guild of Rogues", 
+		"Assassins Creed IV Black Flag - Crusader & Florentine Pack"
 	], 
 	"Fallen Enchantress": [
 		"Fallen Enchantress Map Pack"
@@ -1037,7 +1045,8 @@ postMessage({dlc:{
 		"DmC Devil May Cry: Vergil's Downfall", 
 		"DmC Devil May Cry: Weapon Bundle", 
 		"DmC Devil May Cry: Bloody Palace Mode", 
-		"DmC Devil May Cry: Costume Pack"
+		"DmC Devil May Cry: Costume Pack", 
+		"DmC Devil May Cry: All DLC Bundle"
 	], 
 	"Total War: SHOGUN 2": [
 		"Total War: SHOGUN 2 \u2013 Otomo Clan Pack DLC", 
@@ -1973,6 +1982,9 @@ postMessage({dlc:{
 		"The Banner Saga: Factions - Starter Pack", 
 		"The Banner Saga: Factions - Eternal Renown Boost"
 	], 
+	"Agarest: Generations of War": [
+		"Agarest - Jack Pack DLC"
+	], 
 	"Orcs Must Die!": [
 		"Orcs Must Die! - Lost Adventures", 
 		"Orcs Must Die! - Artifacts of Power"
@@ -2038,6 +2050,10 @@ postMessage({dlc:{
 		"Tom Clancy's Ghost Recon Future Soldier - Season Pass", 
 		"Tom Clancy's Ghost Recon Future Soldier - Arctic Strike DLC",
 		"Tom Clancy's Ghost Recon Island Thunder"
+	], 
+	"Tom Clancy's Ghost Recon\u00AE": [
+		"Tom Clancy's Ghost Recon\u00AE Island Thunder\u2122", 
+		"Tom Clancy's Ghost Recon\u00AE Desert Siege\u2122"
 	], 
 	"Sonic & All-Stars Racing Transformed": [
 		"Sonic and All-Stars Racing Transformed: Metal Sonic & Outrun DLC"
@@ -2159,7 +2175,9 @@ postMessage({dlc:{
 		"The Lord of the Rings Online\u2122\u0099: Triple Pack"
 	], 
 	"Sniper: Ghost Warrior 2": [
-		"Sniper Ghost Warrior 2: Siberian Strike"
+		"Sniper Ghost Warrior 2: Siberian Strike", 
+		"Sniper Ghost Warrior 2: World Hunter Pack", 
+		"Sniper Ghost Warrior 2: Digital Extras"
 	], 
 	"Bastion": [
 		"Bastion: Original Soundtrack"
@@ -2198,9 +2216,6 @@ postMessage({dlc:{
 		"Magic 2012 Foil Conversion \u201cForest\u2019s Fury\u201d", 
 		"Magic 2012 Foil Conversion \u201cDark Heavens\u201d", 
 		"Magic 2012 Full Deck \u201cDark Heavens\u201d"
-	], 
-	"Warhammer 40,000: Dawn of War II - Retribution Tyranid Race Pack": [
-		"Warhammer 40,000: Dawn of War II - Retribution Tyranid Race Pack"
 	], 
 	"Homefront": [
 		"Homefront Express 870 Shotgun", 
