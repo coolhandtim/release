@@ -1631,8 +1631,9 @@ postMessage({dlc:{
 		"Splice: Epilogue Soundtrack", 
 		"Splice Soundtrack"
 	], 
-	"Tom Clancy's H.A.W.X.&reg; 2": [
-		"Tom Clancy's H.A.W.X.&reg; 2 - Open Skies Expansion Pack"
+	"Tom Clancy's H.A.W.X. 2": [
+		"Tom Clancy's H.A.W.X.&reg; 2 - Open Skies Expansion Pack",
+		"Tom Clancy's H.A.W.X. 2 - Open Skies Expansion Pack"
 	], 
 	"Tom Clancy's Splinter Cell Conviction Deluxe Edition": [
 		"Tom Clancy's Splinter Cell Conviction Insurgency Pack"
