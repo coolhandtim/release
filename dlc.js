@@ -72,10 +72,6 @@ postMessage({dlc:{
 		"Moon Breakers:  Flyboy Bundle DLC", 
 		"Moon Breakers:  Rookie Bundle DLC"
 	], 
-	"Europa Universalis III: Divine Wind": [
-		"Europa Universalis III: Western - AD 1400 Spritepack", 
-		"Europa Universalis III: Eastern - AD 1400 Spritepack"
-	], 
 	"Max Payne 3": [
 		"Max Payne 3: Deathmatch Made In Heaven Pack", 
 		"Max Payne 3: Painful Memories Pack", 
@@ -1025,7 +1021,10 @@ postMessage({dlc:{
 		"Europa Universalis III: Revolution SpritePack", 
 		"Europa Universalis III: Medieval SpritePack", 
 		"Europa Universalis III: Reformation SpritePack", 
-		"Europa Universalis III: Enlightenment SpritePack"
+		"Europa Universalis III: Enlightenment SpritePack",
+		"Europa Universalis III: Divine Wind", 
+		"Europa Universalis III: Western - AD 1400 Spritepack", 
+		"Europa Universalis III: Eastern - AD 1400 Spritepack"
 	], 
 	"Just Cause 2": [
 		"Just Cause 2 - Black Market Boom Pack DLC", 
@@ -1573,6 +1572,20 @@ postMessage({dlc:{
 		"Crusader Kings II: Celtic Portraits", 
 		"Crusader Kings II: Celtic Unit Pack", 
 		"Crusader Kings II: Europa Universalis IV Converter"
+	], 
+	"Europa Universalis IV": [
+		"Europa Universalis IV: American Dream", 
+		"Europa Universalis IV: National Monuments II", 
+		"Europa Universalis IV: Pre-Order Pack", 
+		"Europa Universalis IV: Call-to-Arms Pack", 
+		"Europa Universalis IV: Digital Extreme Edition Upgrade Pack", 
+		"Europa Universalis IV: Conquest of Paradise", 
+		"Europa Universalis IV: Conquistadors Unit pack", 
+		"Europa Universalis IV: Native Americans Unit Pack", 
+		"Europa Universalis IV: Songs of the New World", 
+		"Europa Universalis IV: Native Americans II Unit Pack", 
+		"Europa Universalis: Colonial British and French Unit pack", 
+		"Europa Universalis IV: Muslim Advisor Portraits"
 	], 
 	"Dogfight 1942": [
 		"Dogfight 1942 Fire Over Africa", 
