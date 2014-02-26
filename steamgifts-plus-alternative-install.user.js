@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name        	SteamGifts Plus Alternative
-// @version     	1.0.0-LATEST
+// @name        	SteamGifts Plus Alternative Test
+// @version     	1.0.0-Test
 // @namespace   	steamgiftsplus
 // @description    	Adds various features.
 // @copyright      	2012 Kaitlyn <reowkaitlyn@gmail.com>
@@ -14,6 +14,6 @@
 if (window.top == window) {
 	var steamgiftsPlus = document.createElement('script');
 	steamgiftsPlus.type = 'text/javascript';
-	steamgiftsPlus.src = 'http://github.com/psyren89/release/raw/master/steamgifts-plus.min.js';
+	steamgiftsPlus.src = 'http://members.iinet.net.au/~lilih/steamgifts-plus.js';
 	document.body.appendChild(steamgiftsPlus);
 }

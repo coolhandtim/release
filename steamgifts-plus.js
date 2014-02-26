@@ -1426,16 +1426,19 @@
 		
 		var DLCList = lscache.get('DLC');
 		if (DLCList == null) {
+      console.log("empty dlc list");
 			DLCList = {};
 		}
 		
 		var giveawayLibraryFilters = giveawayFilters['libraryFilters'];
 		if (giveawayLibraryFilters == null) {
+      console.log("empty library list");
 			giveawayLibraryFilters = {};
 		}
 		
 		for (var game in giveawayLibraryFilters) {
 			var safeGameName = game.toLowerCase().replace(/\W/g, '');
+      console.log("examining " + safeGameName);
 			if (game != safeGameName) {
 				giveawayLibraryFilters[safeGameName] = giveawayLibraryFilters[game];
 				delete giveawayLibraryFilters[game];
@@ -1444,11 +1447,16 @@
 		
 		var DLCFilterList = [];
 		
+    console.log("examining DLC list");
 		for (var game in DLCList) {
 			if (!giveawayLibraryFilters.hasOwnProperty(game)) {
+        console.log("giveaway library filter does not contain " + game + ", merging " + DLCList[game] + " into DLC filter list");
 				$.merge(DLCFilterList, DLCList[game]);
 			}
 		}
+
+    console.log("dlc filter list:");
+    console.log(DLCFilterList);
 		
 		var giveaways = obj.find('.ajax_gifts .title');
 		
@@ -1456,6 +1464,7 @@
 			var giveaway = $(giveawayObj).parent().parent();
 			var giveawayName = giveaway.find('.title>a').text();
 			var giveawaySafeName = (giveaway.find('.title>a').attr('href').match(/\/giveaway\/.{5}\/(.*)/)[1]).toLowerCase().replace(/\W/g, '');
+      console.log("examining giveaway: " + giveawayName + ", reduced to " + giveawaySafeName);
 			var giveawayPoints = parseInt(giveaway.find('.title>span:last').text().replace(/([^0-9]*)/g, ''));
 			var giveawayEntries = parseInt(giveaway.find('.entries>span:first').text().trim().replace(/([^0-9]*)/g, ''));
 			var giveawayGroupOnly = giveaway.find('.group_only').length;
@@ -1538,7 +1547,9 @@
 						key = key.trim();
 						var filterRegex = new RegExp('^' + key.toLowerCase().replace(/[\_\-\[\]{}()+?.,\\^$|#\s]/g, '\\$&').replace(/\*/g, '.*') + '$');
 						
-						if (giveawayName.toLowerCase().trim().match(filterRegex)) {
+            var trimmedGiveawayName = giveawayName.toLowerCase().trim();
+						if (trimmedGiveawayName.match(filterRegex)) {
+              console.log(trimmedGiveawayName + " matched custom filter");
 							hide = true;
 							show = false;
 						}
@@ -1553,7 +1564,12 @@
 				}
 			}
 			
-			if (filterHideDLC && inArray(giveawayName.toLowerCase().replace(/\W/g, ''), DLCFilterList) != -1) {
+      var reducedGiveawayName = giveawayName.toLowerCase().replace(/\W/g, '');
+      console.log("searching for " + giveawaySafeName);
+      var arrayIndex = inArray(giveawaySafeName, DLCFilterList);
+      console.log(reducedGiveawayName + " found in array at index " + arrayIndex);
+			if (filterHideDLC && arrayIndex != -1) {
+        console.log(reducedGiveawayName + " matched DLC filter");
 				hide = true;
 				show = false;
 			}
@@ -2423,6 +2439,7 @@
 	 * @param {boolean} forceUpdate Forces the update.
 	 */
 	function updateDLC(forceUpdate) {
+    console.log("updating dlc, forced: " + forceUpdate);
 		if (forceUpdate || (lscache.get('lastDLCUpdate') == null || lscache.get('lastDLCUpdate') < now - (3600000 * 6))) {
 			lscache.set('lastDLCUpdate', now);
 			
@@ -2430,7 +2447,7 @@
 		
 			var scriptDLC = document.createElement('script');
 			scriptDLC.type = 'text/javascript';
-			scriptDLC.src = 'http://github.com/psyren89/release/raw/master/dlc.min.js';
+			scriptDLC.src = 'http://members.iinet.net.au/~lilih/dlc.js';
 			document.head.appendChild(scriptDLC);
 		}
 	}
@@ -2501,25 +2518,37 @@
 	 * @param {Object} event Message event object.
 	 */
 	function postMessageReceived(event) {
+    console.log("start of post message received");
 		if (event.data.awards != null) {
 			lscache.set('userAwards', event.data.awards);
-		} else if (event.data.dlc != null) {	
+		} else if (event.data.dlc != null) {
+      console.log("got dlc list");	
 			//Remove illegal characters.
 			var DLCList = event.data.dlc;
 			
 			for (var game in DLCList) {
 				var safeGameName = game.toLowerCase().replace(/\W/g, '');
-				
+				console.log("received " + safeGameName);
 				var safeDLCArray = [];
 				for (var dlc in DLCList[game]) {	
 					var safeDLCName = DLCList[game][dlc].toLowerCase().replace(/\W/g, '');
-					safeDLCArray.push(safeDLCName)
+          console.log("dlc: " + safeDLCName);
+					safeDLCArray.push(safeDLCName);
+          delete DLCList[game][dlc];
 				}			
 				delete DLCList[game];
 				DLCList[safeGameName] = safeDLCArray;			
 			}
 			lscache.set('DLC', DLCList);
+      alert("DLC sync complete!");
+      //download DLC list in its entirety
+      //for each game, reduce its name
+        //for each of its DLC, reduce its name and add it to an array
+          //delete the original full-name property and replace it with the reduced name
+          //attach the list of name-reduced DLC to it
+      //replace the DLC list in the cache with this new one entirely
 		}
+    console.log("end of post message received");
 	}
 	
 	/**
