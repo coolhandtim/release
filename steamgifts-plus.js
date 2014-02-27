@@ -1426,7 +1426,6 @@
 		
 		var DLCList = lscache.get('DLC');
 		if (DLCList == null) {
-      console.log("empty dlc list");
 			DLCList = {};
 		}
 		
@@ -1463,6 +1462,7 @@
 		forEachChunked(giveaways, page['maxItemsPerPage']['giveaway']/5, 100, function(giveawayObj, i, array) {
 			var giveaway = $(giveawayObj).parent().parent();
 			var giveawayName = giveaway.find('.title>a').text();
+      var lowercaseGiveawayName = giveawayName.toLowerCase();
 			var giveawaySafeName = (giveaway.find('.title>a').attr('href').match(/\/giveaway\/.{5}\/(.*)/)[1]).toLowerCase().replace(/\W/g, '');
       console.log("examining giveaway: " + giveawayName + ", reduced to " + giveawaySafeName);
 			var giveawayPoints = parseInt(giveaway.find('.title>span:last').text().replace(/([^0-9]*)/g, ''));
@@ -1547,7 +1547,7 @@
 						key = key.trim();
 						var filterRegex = new RegExp('^' + key.toLowerCase().replace(/[\_\-\[\]{}()+?.,\\^$|#\s]/g, '\\$&').replace(/\*/g, '.*') + '$');
 						
-            var trimmedGiveawayName = giveawayName.toLowerCase().trim();
+            var trimmedGiveawayName = lowercaseGiveawayName.trim();
 						if (trimmedGiveawayName.match(filterRegex)) {
               console.log(trimmedGiveawayName + " matched custom filter");
 							hide = true;
@@ -1564,7 +1564,7 @@
 				}
 			}
 			
-      var reducedGiveawayName = giveawayName.toLowerCase().replace(/\W/g, '');
+      var reducedGiveawayName = lowercaseGiveawayName.replace(/\W/g, '');
       console.log("searching for " + giveawaySafeName);
       var arrayIndex = inArray(giveawaySafeName, DLCFilterList);
       console.log(reducedGiveawayName + " found in array at index " + arrayIndex);
@@ -2518,37 +2518,23 @@
 	 * @param {Object} event Message event object.
 	 */
 	function postMessageReceived(event) {
-    console.log("start of post message received");
 		if (event.data.awards != null) {
 			lscache.set('userAwards', event.data.awards);
 		} else if (event.data.dlc != null) {
-      console.log("got dlc list");	
 			//Remove illegal characters.
 			var DLCList = event.data.dlc;
 			
 			for (var game in DLCList) {
-				var safeGameName = game.toLowerCase().replace(/\W/g, '');
-				console.log("received " + safeGameName);
 				var safeDLCArray = [];
 				for (var dlc in DLCList[game]) {	
-					var safeDLCName = DLCList[game][dlc].toLowerCase().replace(/\W/g, '');
-          console.log("dlc: " + safeDLCName);
-					safeDLCArray.push(safeDLCName);
+					safeDLCArray.push(DLCList[game][dlc].replace(/\W/g, ''));
           delete DLCList[game][dlc];
 				}			
-				delete DLCList[game];
-				DLCList[safeGameName] = safeDLCArray;			
+				DLCList[game.replace(/\W/g, '')] = safeDLCArray;			
+        delete DLCList[game];
 			}
 			lscache.set('DLC', DLCList);
-      alert("DLC sync complete!");
-      //download DLC list in its entirety
-      //for each game, reduce its name
-        //for each of its DLC, reduce its name and add it to an array
-          //delete the original full-name property and replace it with the reduced name
-          //attach the list of name-reduced DLC to it
-      //replace the DLC list in the cache with this new one entirely
 		}
-    console.log("end of post message received");
 	}
 	
 	/**
