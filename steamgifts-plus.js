@@ -2503,18 +2503,25 @@ function binarySearch(value, items) {
             return;
         }
 
+        //retrieve from disk
         giveawayFilters = lscache.get('giveawayFilters');
         if (giveawayFilters == null) {
             giveawayFilters = {};
         }
 
         //Legacy support. Convert library filters to new format.
+
+        //get property
         var giveawayLibraryFilters = giveawayFilters['libraryFilters'];
         if (giveawayLibraryFilters == null) {
             giveawayLibraryFilters = {};
             giveawayFilters['libraryFilters'] = giveawayLibraryFilters;
         }
 
+        //for each entry in the library
+            //if it's a property of giveawayFilters
+                //make it a property of giveawayLibraryFilters
+                //delete the property from giveawayFilters
         for (var key in giveawayFilters) {
             console.log("examining key: " + key);
             if (giveawayFilters[key] && key != 'libraryFilters') {
@@ -2525,6 +2532,11 @@ function binarySearch(value, items) {
 
         var gamesList = [];
 
+        //for each "code" div
+            //get the text it contains
+            //if the entry doesn't exist in giveawayLibraryFilters
+                //set it as a property
+                //add it to the SGP html stuff
         data.find('div.code').each(function() {
             var name = $(this).text();
             console.log("library item: " + name);
@@ -2542,8 +2554,12 @@ function binarySearch(value, items) {
             }
         });
 
+        //for each entry in giveawayLibraryFilters
+            //if the entry is not in the games list
+                //delete the entry
         for (var key in giveawayLibraryFilters) {
             if (inArray(key, gamesList) == -1) {
+                console.log("deleting " + name);
                 delete giveawayLibraryFilters[key];
             }
         }
