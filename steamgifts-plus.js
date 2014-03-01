@@ -2671,7 +2671,7 @@ function binarySearch(value, items) {
             }
             indexOf = Array.prototype.indexOf;
             if (indexOf) {
-                return indexOf.call(array, elem, i);;
+                return indexOf.call(array, elem, i);
             }
             len = array.length;
             for (var i = 0; i < len; i++) {
