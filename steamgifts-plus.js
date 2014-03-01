@@ -1508,27 +1508,23 @@ function binarySearch(value, items) {
         }
 
         for (var game in giveawayLibraryFilters) {
-            var safeGameName = game.toLowerCase().replace(/\W/g, '');
-            console.log("checking " + safeGameName + " in library filters");
+            var safeGameName = game.toLowerCase().replace(/\W/g, "");
             if (game != safeGameName) {
                 giveawayLibraryFilters[safeGameName] = giveawayLibraryFilters[game];
                 delete giveawayLibraryFilters[game];
             }
         }
 
-        var DLCFilterList = [];
+        var DLCFilterList = {};
 
         for (var game in DLCList) {
             if (!giveawayLibraryFilters.hasOwnProperty(game)) {
-                console.log("merge sorting");
-                DLCFilterList = mergeSort(DLCFilterList, DLCList[game]);
-                console.log("current DLC filter list: " + DLCFilterList);
-                // $.merge(DLCFilterList, DLCList[game]);
+                var listLength = DLCList[game].length;
+                for (var i = 0; i < listLength; i++) {
+                    DLCFilterList[DLCList[game][i]] = true;
+                }
             }
         }
-
-        console.log("library filter list: " + Object.keys(giveawayLibraryFilters).sort());
-        console.log("DLC filter list: " + DLCFilterList);
 
         var giveaways = obj.find('.ajax_gifts .title');
 
@@ -1536,7 +1532,6 @@ function binarySearch(value, items) {
             var giveaway = $(giveawayObj).parent().parent();
             var giveawayName = giveaway.find('.title>a').text();
             var giveawaySafeName = (giveaway.find('.title>a').attr('href').match(/\/giveaway\/.{5}\/(.*)/)[1]).toLowerCase().replace(/\W/g, '');
-            console.log("examining giveaway: " + giveawayName + ", reduced to " + giveawaySafeName);
             var giveawayPoints = parseInt(giveaway.find('.title>span:last').text().replace(/([^0-9]*)/g, ''));
             var giveawayEntries = parseInt(giveaway.find('.entries>span:first').text().trim().replace(/([^0-9]*)/g, ''));
             var giveawayGroupOnly = giveaway.find('.group_only').length;
@@ -1615,7 +1610,6 @@ function binarySearch(value, items) {
                         var filterRegex = new RegExp('^' + key.toLowerCase().replace(/[\_\-\[\]{}()+?.,\\^$|#\s]/g, '\\$&').replace(/\*/g, '.*') + '$');
 
                         if (trimmedGiveawayName.match(filterRegex)) {
-                            console.log("matched custom filter");
                             hide = true;
                             show = false;
                         }
@@ -1625,17 +1619,12 @@ function binarySearch(value, items) {
 
             if (filterLibraryGames) {
                 if (giveawayLibraryFilters.hasOwnProperty(giveawaySafeName) && giveawayLibraryFilters[giveawaySafeName]) {
-                    console.log("matched library filter");
                     hide = true;
                     show = false;
                 }
             }
 
-            console.log("searching for " + giveawaySafeName);
-            var arrayIndex = inArray(giveawaySafeName, DLCFilterList);
-            console.log(reducedGiveawayName + " found in array at index " + arrayIndex);
-            if (filterHideDLC && arrayIndex != -1) {
-                console.log(reducedGiveawayName + " matched DLC filter");
+            if (filterHideDLC && DLCFilterList.hasOwnProperty(giveawaySafeName)) {
                 hide = true;
                 show = false;
             }
@@ -2523,7 +2512,6 @@ function binarySearch(value, items) {
                 //make it a property of giveawayLibraryFilters
                 //delete the property from giveawayFilters
         for (var key in giveawayFilters) {
-            console.log("examining key: " + key);
             if (giveawayFilters[key] && key != 'libraryFilters') {
                 giveawayLibraryFilters[key] = true;
                 delete giveawayFilters[key];
@@ -2539,10 +2527,8 @@ function binarySearch(value, items) {
                 //add it to the SGP html stuff
         data.find('div.code').each(function() {
             var name = $(this).text();
-            console.log("library item: " + name);
 
             if (name.length && !giveawayLibraryFilters.hasOwnProperty(name)) {
-                console.log("library filters does not have this property");
                 giveawayLibraryFilters[name] = true;
                 $('#sgpFilteredGamesListLibraryEnabled').prepend('<div class="sgpFilteredGame"><span>' + name + '</span><a class="sgpRemoveListItem" href=""><img style="margin-bottom: -2px; width: 12px; height: 12px;" src="http://www.steamgifts.com/img/verify_error.png" title="Remove"></a></div>');
             }
@@ -2554,12 +2540,12 @@ function binarySearch(value, items) {
             }
         });
 
+        //this deals with items removed from the library (like after free weekends)
         //for each entry in giveawayLibraryFilters
             //if the entry is not in the games list
                 //delete the entry
         for (var key in giveawayLibraryFilters) {
             if (inArray(key, gamesList) == -1) {
-                console.log("deleting " + name);
                 delete giveawayLibraryFilters[key];
             }
         }
@@ -2583,7 +2569,7 @@ function binarySearch(value, items) {
 
             var scriptDLC = document.createElement('script');
             scriptDLC.type = 'text/javascript';
-            scriptDLC.src = 'http://members.iinet.net.au/~lilih/dlc.js';
+            scriptDLC.src = 'http://github.com/psyren89/release/raw/master/dlc.min.js';
             document.head.appendChild(scriptDLC);
         }
     }
@@ -2657,21 +2643,7 @@ function binarySearch(value, items) {
         if (event.data.awards != null) {
             lscache.set('userAwards', event.data.awards);
         } else if (event.data.dlc != null) {
-            console.log("updating dlc");
-            //Remove illegal characters.
             var DLCList = event.data.dlc;
-
-            for (var game in DLCList) {
-                console.log("game: " + game);
-                var safeDLCArray = [];
-                for (var dlc in DLCList[game]) {
-                    console.log("dlc: " + dlc);
-                    safeDLCArray.push(DLCList[game][dlc]);
-                    delete DLCList[game][dlc];
-                }
-                DLCList[game.replace(/\W/g, '')] = safeDLCArray;
-                delete DLCList[game];
-            }
             lscache.set('DLC', DLCList);
         }
     }
@@ -2691,22 +2663,19 @@ function binarySearch(value, items) {
      * @param {number} i The starting index for the search.
      * @return {number} The index of the found string, or -1 if none.
      */
-    function inArray(elem, array, i) {
+    function inArray(elem, array, bSearch) {
         var len;
         if (array) {
-            if (array != staff) {
+            if (bSearch) {
                 return binarySearch(elem, array);
             }
             indexOf = Array.prototype.indexOf;
             if (indexOf) {
-                return indexOf.call(array, elem, i);
+                return indexOf.call(array, elem, i);;
             }
             len = array.length;
-            i = i ? i < 0 ? Math.max(0, len + i) : i : 0;
-            for (; i < len; i++) {
-                if (i in array && array[i] === elem) {
-                    return i;
-                }
+            for (var i = 0; i < len; i++) {
+                if (array[i] === elem) return i;
             }
         }
         return -1;
