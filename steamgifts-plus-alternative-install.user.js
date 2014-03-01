@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        	SteamGifts Plus Alternative
-// @version     	1.0.0-LATEST
+// @version     	20140301
 // @namespace   	steamgiftsplus
 // @description    	Adds various features.
 // @copyright      	2012 Kaitlyn <reowkaitlyn@gmail.com>
