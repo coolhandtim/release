@@ -125,7 +125,7 @@ postMessage({
         ],
         "awesomenauts": [
             "awesomenautsabyssalswiggins",
-            "awesomenautsadmiralswigginsphd"
+            "awesomenautsadmiralswigginsphd",
             "awesomenautsahrplskin",
             "awesomenautsbionicraelynnskin",
             "awesomenautsbumblegnaw",
