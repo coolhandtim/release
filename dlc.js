@@ -124,17 +124,24 @@ postMessage({
             "avirusnamedtomwinterwonderland"
         ],
         "awesomenauts": [
+            "awesomenautsabyssalswiggins",
+            "awesomenautsadmiralswigginsphd"
+            "awesomenautsahrplskin",
             "awesomenautsbionicraelynnskin",
             "awesomenautsbumblegnaw",
             "awesomenautscapnvinnieseadogspike",
             "awesomenautscluck",
             "awesomenautscocohawaii",
             "awesomenautscocomcflyskin",
+            "awesomenautscostumepartydlcbundle",
+            "awesomenautscostumeparty2dlcbundle",
             "awesomenautsdemonsklldir",
+            "awesomenautsdigitalgskin",
             "awesomenautsdiscovoltar",
             "awesomenautsdoubleoyuriskin",
             "awesomenautsexpendableclunk",
             "awesomenautsgenjithegrey",
+            "awesomenautsgnabot",
             "awesomenautsgrandmastersplash",
             "awesomenautshotrodderpl",
             "awesomenautskagegenji",
@@ -142,12 +149,15 @@ postMessage({
             "awesomenautsmousquetaireleon",
             "awesomenautsofficerlonestar",
             "awesomenautsofficialsoundtrack",
+            "awesomenautspartyboymcpain",
             "awesomenautspimpygskin",
             "awesomenautspirateleonskin",
             "awesomenautsravishingraelynnskin",
             "awesomenautsshaolinayla",
             "awesomenautsstarstorm",
-            "awesomenautsteddyayla"
+            "awesomenautssusiannouncer",
+            "awesomenautsteddyayla",
+            "awesomenautstitaniumted"
         ],
         "babelrising": [
             "babelrisingskysthelimitdlc"
@@ -298,6 +308,10 @@ postMessage({
         "castlecrashers": [
             "castlecrashersblacksmithpack",
             "castlecrasherspinkknightpack"
+        ],
+        "castlestorm": [
+            "castlestormfromoutcasttosavior",
+            "castlestormthewarriorqueen"
         ],
         "championsofregnum": [
             "championsofregnumnewrecruitpack",
