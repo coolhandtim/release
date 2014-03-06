@@ -1375,6 +1375,11 @@ postMessage({
             "risen2darkwatersapiratesclothesdlc",
             "risen2darkwaterstreasureisledlc"
         ],
+        "riseofflightchannelbattlesedition": [
+            "riseofflightchannelbattleseditionacepack",
+            "riseofflightchannelbattleseditionbirthofwarbirds",
+            "riseofflightchannelbattleseditionfuriouswings"
+        ],
         "rochard": [
             "rochardhardtimes"
         ],
