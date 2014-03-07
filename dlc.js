@@ -1941,6 +1941,7 @@ postMessage({
             "thesims3katyperryssweettreats",
             "thesims3latenight",
             "thesims3mastersuitestuff",
+            "thesims3moviestuff",
             "thesims3outdoorlivingstuff",
             "thesims3pets",
             "thesims3seasons",
