@@ -1968,6 +1968,13 @@ postMessage({
         "theybleedpixels": [
             "theybleedpixelssoundtrack"
         ],
+        "thief": [
+            "thiefdlcboosterpackghost",
+            "thiefdlcboosterpackopportunist",
+            "thiefdlcboosterpackpredator",
+            "thiefdlctheforsakenchallengemap",
+            "thiefthebankheist"
+        ],
         "thirtyflightsofloving": [
             "thirtyflightsoflovingsoundtrack"
         ],
