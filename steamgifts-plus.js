@@ -4411,7 +4411,7 @@ function binarySearch(value, items) {
         text-shadow: none;\
       }\
       .sgpFilteredGame {\
-        width: 31%;\
+        width: 30%;\
         position: relative;\
       }\
       .sgpRemoveListItem {\
