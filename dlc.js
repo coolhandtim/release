@@ -1378,7 +1378,8 @@ postMessage({
         "riseofflightchannelbattlesedition": [
             "riseofflightchannelbattleseditionacepack",
             "riseofflightchannelbattleseditionbirthofwarbirds",
-            "riseofflightchannelbattleseditionfuriouswings"
+            "riseofflightchannelbattleseditionfuriouswings",
+            "riseofflightchannelbattleseditionlegendarybombers"
         ],
         "rochard": [
             "rochardhardtimes"
