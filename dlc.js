@@ -713,8 +713,15 @@ postMessage({
         ],
         "frontlinetactics": [
             "frontlinetacticsclosequartercombatpack",
+            "frontlinetacticsdesertcamouflage",
+            "frontlinetacticsdlcbundle",
+            "frontlinetacticsgoldenguns",
             "frontlinetacticsmedicpack",
-            "frontlinetacticssniperpack"
+            "frontlinetacticsninjacamouflage",
+            "frontlinetacticssniperpack",
+            "frontlinetacticssnowcamouflage",
+            "frontlinetacticstigercamouflage",
+            "frontlinetacticswoodlandcamouflage"
         ],
         "frontmissionevolved": [
             "frontmissionevolvedlaststand",
