@@ -1285,6 +1285,9 @@ postMessage({
         "proevolutionsoccer2013": [
             "proevolutionsoccer2013datapackdlc"
         ],
+        "professionalfarmer2014": [
+            "professionalfarmer2014goodoltimesdlc"
+        ],
         "prototype2": [
             "prototype2radnetaccesspack"
         ],
