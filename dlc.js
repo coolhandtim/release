@@ -874,6 +874,10 @@ postMessage({
         "irongripwarlord": [
             "irongripwarlordscorchedearthdlc"
         ],
+        "ironskyinvasion": [
+            "ironskyinvasionmeteorblitzkrieg",
+            "ironskyinvasionthesecondfleet"
+        ],
         "jaggedalliancebackinaction": [
             "jaggedalliancebackinactiondesertspecialistkitdlc",
             "jaggedalliancebackinactiondlcurbanspecialistkit",
