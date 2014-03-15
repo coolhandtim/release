@@ -639,6 +639,11 @@ postMessage({
             "eurotrucksimulator2halloweenpaintjobspack",
             "eurotrucksimulator2icecoldpaintjobspack"
         ],
+        "f12013": [
+            "f12013classiceditionupgrade",
+            "f1classics1990spack",
+            "f1classicsclassictrackspack"
+        ]
         "f1racestars": [
             "f1racestarscanadatrack",
             "f1racestarschinatrack",
@@ -772,6 +777,11 @@ postMessage({
             "guardiansofmiddleearthsmaugstreasure",
             "guardiansofmiddleearththecompanyofdwarvesbundle",
             "guardiansofmiddleearththewarriorbundle"
+        ],
+        "guncraft": [
+            "guncraftholidayblockpack",
+            "guncrafthorrorsfxpack",
+            "guncraftscifisfxpack"
         ],
         "hackerevolution": [
             "hackerevolutionhardcoremusicpack",
