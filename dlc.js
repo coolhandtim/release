@@ -643,7 +643,7 @@ postMessage({
             "f12013classiceditionupgrade",
             "f1classics1990spack",
             "f1classicsclassictrackspack"
-        ]
+        ],
         "f1racestars": [
             "f1racestarscanadatrack",
             "f1racestarschinatrack",
