@@ -1149,6 +1149,7 @@ postMessage({
             "marvelheroesxforcepack"
         ],
         "maxpayne3": [
+            "maxpayne3cemetarymap",
             "maxpayne3classicmaxpaynecharacter",
             "maxpayne3deadlyforceburst",
             "maxpayne3deathmatchmadeinheavenpack",
@@ -1675,6 +1676,7 @@ postMessage({
             "civilizationvcivilizationandscenariopackkorea",
             "civilizationvcradleofcivilizationamericas",
             "civilizationvcradleofcivilizationasia",
+            "civilizationvcradleofcivilizationdlcbundle",
             "civilizationvcradleofcivilizationmediterranean",
             "civilizationvcradleofcivilizationmesopotamia",
             "civilizationvexplorersmappack",
@@ -1682,7 +1684,9 @@ postMessage({
             "doublecivilizationandscenariopackspainandinca",
             "sidmeierscivilizationvbabylonnebuchadnezzarii",
             "sidmeierscivilizationvbravenewworld",
-            "sidmeierscivilizationvgodsandkings"
+            "sidmeierscivilizationvgodsandkings",
+            "sidmeierscivilizationvscrambledcontinentsmappack",
+            "sidmeierscivilizationvscramblednationsmappack"
         ],
         "sinsofasolarempirerebellion": [
             "sinsofasolarempirerebellionforbiddenworlds",
@@ -1779,6 +1783,7 @@ postMessage({
             "stealthbastarddeluxetheteleporterchambers"
         ],
         "steelstormburningretribution": [
+            "steelstormforgottenprisondlc",
             "steelstormweaponpackdlc"
         ],
         "stellarimpact": [
