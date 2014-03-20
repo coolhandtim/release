@@ -1757,6 +1757,13 @@ postMessage({
         "spacechem": [
             "spacechem63corvi"
         ],
+        "spacehulk": [
+            "spacehulkbehemothskindlc",
+            "spacehulkdefilementofhonourcampaign",
+            "spacehulkkrakenskindlc",
+            "spacehulkspacewolveschapter",
+            "spacehulkswordofhalcyoncampaign"
+        ],
         "spectromancer": [
             "spectromancergatheringofpower",
             "spectromancerleagueofheroes",
