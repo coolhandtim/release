@@ -2350,7 +2350,8 @@ postMessage({
             "wintervoicesepisode2nowhereofme",
             "wintervoicesepisode3likeacrowonawire",
             "wintervoicesepisode4amethystrivers",
-            "wintervoicesepisode5overflow"
+            "wintervoicesepisode5overflow",
+            "wintervoicesepisode6falls"
         ],
         "wizardryonline": [
             "wizardryonlineadventurekit"
