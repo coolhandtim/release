@@ -1958,6 +1958,11 @@ postMessage({
             "theexpendables2videogamehaleceasarupgradedlc",
             "theexpendables2videogameyinyangupgradedlc"
         ],
+        "theincredibleadventuresofvanhelsing": [
+            "theincredibleadventuresofvanhelsingblueblood",
+            "vanhelsingarcanemechanic",
+            "vanhelsingthaumaturge"
+        ],
         "thekingscrusade": [
             "thekingscrusadearabiannights",
             "thekingscrusadenewallies",
