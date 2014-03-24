@@ -523,6 +523,9 @@ postMessage({
         "doom3": [
             "doom3resurrectionofevil"
         ],
+        "dragonageorigins": [
+            "dragonageoriginsawakening"
+        ],
         "dukenukemforever": [
             "dukenukemforeverhailtotheiconsparodypack",
             "dukenukemforeverthedoctorwhoclonedme"
