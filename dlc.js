@@ -295,6 +295,21 @@ postMessage({
             "callofdutyblackopsannihilationescalationbundlemacedition",
             "callofdutyblackopsrezurrectionmacedition"
         ],
+        "callofdutyghosts": [
+            "callofdutyghostscircuitpack",
+            "callofdutyghostsduckypack",
+            "callofdutyghostseliasspecialcharacter",
+            "callofdutyghostsextraslotspack",
+            "callofdutyghostsheshspecialcharacter",
+            "callofdutyghostsinfernopack",
+            "callofdutyghostskeeganspecialcharacter",
+            "callofdutyghostslegendpackcptprice",
+            "callofdutyghostsmerrickspecialcharacter",
+            "callofdutyghostsonslaught",
+            "callofdutyghostsseasonpass",
+            "callofdutyghostsspacecatspack",
+            "callofdutyghostswolfskin"
+        ],
         "callofdutymodernwarfare2": [
             "callofdutymodernwarfare2resurgencepack",
             "callofdutymodernwarfare2stimuluspackage"
