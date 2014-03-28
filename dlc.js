@@ -2080,7 +2080,12 @@ postMessage({
             "tonyhawksproskaterhdrevertpack"
         ],
         "totalwarromeii": [
-            "totalwarromeiigreekstatesculturepack"
+            "totalwarromeiibeastsofwar",
+            "totalwarromeiibloodgore",
+            "totalwarromeiicaesaringaul",
+            "totalwarromeiigreekstatesculturepack",
+            "totalwarromeiihannibalatthegates",
+            "totalwarromeiinomadictribesculturepack"
         ],
         "totalwarshogun2": [
             "totalwarshogun2bloodpackdlc",
