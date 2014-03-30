@@ -178,6 +178,7 @@ postMessage({
             "batmanarkhamoriginsinitiation",
             "batmanarkhamoriginsnewmillenniumskinspack",
             "batmanarkhamoriginsonlinesupplydrop1",
+            "batmanarkhamoriginsonlinesupplydrop2",
             "batmanarkhamoriginsseasonpass"
         ],
         "battlefieldbadcompany2": [
