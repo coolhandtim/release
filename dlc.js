@@ -1408,6 +1408,9 @@ postMessage({
             "rhythmzonerevolutionvisualizerdlc",
             "rhythmzonetornadovisualizerdlc"
         ],
+        "ridetohellretribution": [
+            "ridetohellretributioncooksmadrecipe"
+        ]
         "ridgeracerunbounded": [
             "ridgeracerunboundedextendedpack3vehicles5paintjobs",
             "ridgeracerunboundedridgeracer1machineandthehearsepack",
