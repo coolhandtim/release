@@ -437,6 +437,9 @@ postMessage({
             "damageincp61maulerblackwidow",
             "damageincp80boltshootingstar"
         ],
+        "dark": [
+            "darkcultofhedeaddlc"
+        ],
         "darksidersii": [
             "darksidersiiabyssalforge",
             "darksidersiiangelofdeath",
