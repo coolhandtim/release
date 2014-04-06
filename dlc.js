@@ -1433,7 +1433,8 @@ postMessage({
             "riseofflightchannelbattleseditionlegendarybombers"
         ],
         "rochard": [
-            "rochardhardtimes"
+            "rochardhardtimes",
+            "rochardsoundtrackandartbook"
         ],
         "rocksmith": [
             "rocksmith3doorsdown3songpack",
