@@ -1931,6 +1931,9 @@ postMessage({
         "swordsandsoldiers": [
             "swordsandsoldierssupersaucysausagefestdlc"
         ],
+        "symphony": [
+            "symphonyitunesm4asupport"
+        ],
         "takeonhelicopters": [
             "takeonhelicoptershinds",
             "takeonhelicoptersnoisecontrollers",
@@ -2264,10 +2267,14 @@ postMessage({
             "southwesttrainsclass444emuaddon"
         ],
         "trainzsimulator12": [
-            "trainzsimulator12prrt1",
-            "trainzsimulatoraerotraindlc",
-            "trainzsimulatorbrclass14dlc",
-            "trainzsimulatorcoronationscotdlc"
+            "trainzsimulatordlcaerotrain",
+            "trainzsimulatordlcbluecomet",
+            "trainzsimulatordlcbrclass14",
+            "trainzsimulatordlccoronationscot",
+            "trainzsimulatordlcnickelplatehighspeedfreightset",
+            "trainzsimulatordlcprrt1",
+            "trainzsimulatordlcss4chinacoalheavyhaulpack",
+            "trainzsimulatordlctheduchess"
         ],
         "transformersfallofcybertron": [
             "transformersfallofcybertrondinobotdestructorpack",
