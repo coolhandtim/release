@@ -2103,9 +2103,6 @@ postMessage({
         "tomclancyshawx2": [
             "tomclancyshawx2openskiesexpansionpack"
         ],
-        "tomclancyssplintercellconviction": [
-            "tomclancyssplintercellconvictioninsurgencypack"
-        ],
         "tomclancyssplintercellconvictiondeluxeedition": [
             "tomclancyssplintercellconvictioninsurgencypack"
         ],
