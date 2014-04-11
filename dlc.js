@@ -438,7 +438,7 @@ postMessage({
             "damageincp80boltshootingstar"
         ],
         "dark": [
-            "darkcultofhedeaddlc"
+            "darkcultofthedeaddlc"
         ],
         "darksidersii": [
             "darksidersiiabyssalforge",
@@ -2104,6 +2104,7 @@ postMessage({
             "tomclancyshawx2openskiesexpansionpack"
         ],
         "tomclancyssplintercellconviction": [
+            "tomclancyssplintercellconvictiondeluxecdkey",
             "tomclancyssplintercellconvictioninsurgencypack"
         ],
         "tonyhawksproskaterhd": [
