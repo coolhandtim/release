@@ -629,6 +629,9 @@ postMessage({
             "empiretotalwarspecialforcesunitsbonuscontent",
             "empiretotalwarthewarpathcampaign"
         ],
+        "ethanmeteorhunter": [
+            "ethanmeteorhunterdeluxecontent"
+        ],
         "europauniversalisiiicomplete": [
             "europauniversalisiiiabsolutismspritepack",
             "europauniversalisiiidivinewind",
