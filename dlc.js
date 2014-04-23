@@ -60,6 +60,7 @@ postMessage({
         ],
         "anno2070": [
             "anno2070deepocean",
+            "anno2070dlccompletepack",
             "anno2070thecentralstatisticalpackage",
             "anno2070thecrisisresponsepackage",
             "anno2070thedevelopmentpackage",
@@ -1176,6 +1177,10 @@ postMessage({
             "marvelheroesavengersassemblepack",
             "marvelheroesknightspack",
             "marvelheroesxforcepack"
+        ],
+        "mastersoftheworld": [
+            "2014editionaddonmastersoftheworlddlc",
+            "moddingtooladdonformastersoftheworld"
         ],
         "maxpayne3": [
             "maxpayne3cemetarymap",
