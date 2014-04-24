@@ -696,7 +696,10 @@ postMessage({
             "fallenenchantressmappack"
         ],
         "fallenenchantresslegendaryheroes": [
-            "fallenenchantresslegendaryheroesmappackdlc"
+            "fallenenchantresslegendaryheroeslootpack",
+            "fallenenchantresslegendaryheroesmappack",
+            "fallenenchantresslegendaryheroesquestpack",
+            "fallenenchantresslegendaryheroesthedeadworlddlc"
         ],
         "fallout3": [
             "fallout3brokensteel",
