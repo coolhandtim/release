@@ -1267,6 +1267,9 @@ postMessage({
             "orcsmustdie2fireandwaterboosterpack",
             "orcsmustdie2soundtrack"
         ],
+        "overcastwaldenandthewerewolf": [
+            "overcastwaldenandthewerewolfsoundtrack"
+        ],
         "painkillerhellanddamnation": [
             "painkillerhellanddamnationheavensabove",
             "painkillerhelldamnationdigitalextras",
