@@ -1983,7 +1983,7 @@ postMessage({
         ],
         "thebureauxcomdeclassified": [
             "thebureauxcomdeclassifiedcodebreakers",
-            "thebureauxcomdeclassifiedhanger6rd",
+            "thebureauxcomdeclassifiedhangar6rd",
             "thebureauxcomdeclassifiedlightplasmapistol"
         ],
         "thecave": [
