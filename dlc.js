@@ -175,6 +175,7 @@ postMessage({
         ],
         "batmanarkhamorigins": [
             "batmanarkhamoriginsblackmaskchallengepack",
+            "batmanarkhamoriginscoldcoldheart",
             "batmanarkhamoriginsinfiniteearthsskinpack",
             "batmanarkhamoriginsinitiation",
             "batmanarkhamoriginsnewmillenniumskinspack",
