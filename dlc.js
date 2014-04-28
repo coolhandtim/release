@@ -1907,6 +1907,7 @@ postMessage({
         ],
         "strikesuitzero": [
             "strikesuitzeroartbook",
+            "strikesuitzeroheroesofthefleetdlc",
             "strikesuitzeroraptordlc",
             "strikesuitzerosoundtrack"
         ],
