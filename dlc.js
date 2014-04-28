@@ -1267,6 +1267,9 @@ postMessage({
             "orcsmustdie2fireandwaterboosterpack",
             "orcsmustdie2soundtrack"
         ],
+        "overcastwaldenandthewerewolf": [
+            "overcastwaldenandthewerewolfsoundtrack"
+        ],
         "painkillerhellanddamnation": [
             "painkillerhellanddamnationheavensabove",
             "painkillerhelldamnationdigitalextras",
@@ -1981,7 +1984,7 @@ postMessage({
         ],
         "thebureauxcomdeclassified": [
             "thebureauxcomdeclassifiedcodebreakers",
-            "thebureauxcomdeclassifiedhanger6rd",
+            "thebureauxcomdeclassifiedhangar6rd",
             "thebureauxcomdeclassifiedlightplasmapistol"
         ],
         "thecave": [
