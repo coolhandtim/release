@@ -1942,7 +1942,8 @@ postMessage({
         ],
         "swordofthestarsthepit": [
             "swordofthestarsthepitgoldeditiondlc",
-            "swordofthestarsthepitmindgames"
+            "swordofthestarsthepitmindgames",
+            "swordofthestarsthepitthepilgrimdlc"
         ],
         "swordsandsoldiers": [
             "swordsandsoldierssupersaucysausagefestdlc"
