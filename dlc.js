@@ -1373,6 +1373,10 @@ postMessage({
         "rage": [
             "ragethescorchers"
         ],
+        "realmsofarkaniabladeofdestiny": [
+            "realmsofarkaniabladeofdestinyforthegodsdlc",
+            "realmsofarkaniabladeofdestinyogredeathdlc"
+        ],
         "redfactionarmageddon": [
             "redfactionarmageddonpathtowardlc"
         ],
