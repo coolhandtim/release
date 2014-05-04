@@ -331,6 +331,11 @@ postMessage({
             "castlestormfromoutcasttosavior",
             "castlestormthewarriorqueen"
         ],
+        "castlevanialordsofshadow2": [
+            "castlevanialordsofshadow2armoreddraculacostume",
+            "castlevanialordsofshadow2darkdraculacostume",
+            "castlevanialordsofshadow2relicrunepack"
+        ],
         "championsofregnum": [
             "championsofregnumnewrecruitpack",
             "championsofregnumrealmguardpack",
