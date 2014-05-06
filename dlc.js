@@ -1965,6 +1965,12 @@ postMessage({
             "takeonhelicoptersnoisecontrollers",
             "takeonhelicoptersrearmed"
         ],
+        "talismandigitaledition": [
+            "talismancharacterpack1exorcist",
+            "talismancharacterpack2courtesan",
+            "talismancompleterunestonedeck",
+            "thereaperexpansionpack"
+        ],
         "teleglitchdiemoreedition": [
             "teleglitchgunsandtunes"
         ],
