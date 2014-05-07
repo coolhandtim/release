@@ -2318,6 +2318,9 @@ postMessage({
             "transformersfallofcybertronmassivefurypack",
             "transformersfallofcybertronmultiplayerhavocpack"
         ],
+        "transistor": [
+            "transistororiginalsoundtrack"
+        ],
         "tropico3steamspecialedition": [
             "tropico3absolutepower"
         ],
