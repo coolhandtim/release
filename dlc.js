@@ -1325,6 +1325,9 @@ postMessage({
         "pixeljunkeden": [
             "pixeljunkedensoundtrack"
         ],
+        "planetstronghold": [
+            "planetstrongholddeluxedlc"
+        ],
         "portroyale3": [
             "portroyale3dawnofpiratesdlc",
             "portroyale3harbourmasterdlc",
