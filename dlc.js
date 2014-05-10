@@ -1273,6 +1273,9 @@ postMessage({
             "orcsmustdie2fireandwaterboosterpack",
             "orcsmustdie2soundtrack"
         ],
+        "outlast": [
+            "outlastwhistleblowerdlc"
+        ],
         "overcastwaldenandthewerewolf": [
             "overcastwaldenandthewerewolfsoundtrack"
         ],
