@@ -544,6 +544,7 @@ postMessage({
             "dollardashrobberstoolkitdlc"
         ],
         "dontstarve": [
+            "dontstarvereignofgiants",
             "dontstarvesoundtrack"
         ],
         "doom3": [
