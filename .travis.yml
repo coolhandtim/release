@@ -11,7 +11,7 @@ before_script:
 - mkdir -p vendor/java
 - wget http://dl.google.com/closure-compiler/compiler-latest.zip && unzip compiler-latest.zip -d vendor/java/compiler
 - export CLOSURE_JAR=vendor/java/compiler/compiler.jar
-- git fetch upstream branch
+- git fetch
 - git checkout "${TRAVIS_BRANCH}"
 
 script:
