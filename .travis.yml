@@ -1,8 +1,5 @@
 git:
-  depth: 1  
-branches:
-  only:
-    - master
+  depth: 1
 language: java
 jdk:
 - oraclejdk7
@@ -11,7 +8,6 @@ before_script:
 - mkdir -p vendor/java
 - wget http://dl.google.com/closure-compiler/compiler-latest.zip && unzip compiler-latest.zip -d vendor/java/compiler
 - export CLOSURE_JAR=vendor/java/compiler/compiler.jar
-- git fetch
 - git checkout "${TRAVIS_BRANCH}"
 
 script:
