@@ -21,6 +21,9 @@ after_success:
 - git config user.name "${GIT_NAME}"
 - git config user.email "${GIT_EMAIL}"
 - git status
+- git stash
+- git checkout gh-pages
+- git stash pop
 - git add dlc.min.js
 - git add steamgifts-plus.min.js
 - git commit -m "Auto-generated minified js"
