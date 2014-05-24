@@ -11,6 +11,7 @@ before_script:
 - mkdir -p vendor/java
 - wget http://dl.google.com/closure-compiler/compiler-latest.zip && unzip compiler-latest.zip -d vendor/java/compiler
 - export CLOSURE_JAR=vendor/java/compiler/compiler.jar
+- git fetch upstream branch
 - git checkout "${TRAVIS_BRANCH}"
 
 script:
@@ -26,7 +27,7 @@ after_success:
 - git stash pop
 - git add dlc.min.js
 - git add steamgifts-plus.min.js
-- git commit -m "Auto-generated minified js"
+- git commit -m "Auto-generated minified js [ci skip]"
 - git push https://${GH_TOKEN}@github.com/psyren89/release.git
 
 env:
