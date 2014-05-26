@@ -1753,6 +1753,10 @@ postMessage({
             "sinsofasolarempirerebellionforbiddenworlds",
             "sinsofasolarempirerebellionsoundtrack"
         ],
+        "skullgirls": [
+            "skullgirlscolorpalettebundle",
+            "skullgirlssquigly"
+        ],
         "skydrift": [
             "skydriftextremefighterspremiumairplanepack",
             "skydriftgladiatormultiplayerpack"
