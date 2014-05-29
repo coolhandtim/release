@@ -2338,6 +2338,7 @@ postMessage({
             "tropico3absolutepower"
         ],
         "tropico4steamspecialedition": [
+            "tropico4apocalypse",
             "tropico4juntamilitarydlc",
             "tropico4megalopolisdlc",
             "tropico4moderntimes",
