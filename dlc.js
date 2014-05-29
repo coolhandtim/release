@@ -307,6 +307,7 @@ postMessage({
             "callofdutyghostsinfernopack",
             "callofdutyghostskeeganspecialcharacter",
             "callofdutyghostslegendpackcptprice",
+            "callofdutyghostslegendpacksoap",
             "callofdutyghostsmerrickspecialcharacter",
             "callofdutyghostsonslaught",
             "callofdutyghostsseasonpass",
@@ -1281,6 +1282,7 @@ postMessage({
             "overcastwaldenandthewerewolfsoundtrack"
         ],
         "painkillerhellanddamnation": [
+            "painkillerhellanddamnationcollectorseditionupgrade",
             "painkillerhellanddamnationheavensabove",
             "painkillerhelldamnationdigitalextras",
             "painkillerhelldamnationfullmetalrocket",
@@ -2341,6 +2343,7 @@ postMessage({
             "tropico4moderntimes",
             "tropico4pirateheavendlc",
             "tropico4plantadordlc",
+            "tropico4propaganda",
             "tropico4quickdrycementdlc",
             "tropico4vigilantedlc"
         ],
