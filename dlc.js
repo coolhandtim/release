@@ -89,6 +89,10 @@ postMessage({
             "aresberzerkersuit",
             "aresoriginalsoundtrack"
         ],
+        "arma3": [
+            "arma3dlcbundle",
+            "arma3karts"
+        ],
         "armaiioperationarrowhead": [
             "armaiiarmyoftheczechrepublic",
             "armaiibritisharmedforces",
@@ -671,7 +675,8 @@ postMessage({
         "eurotrucksimulator2": [
             "eurotrucksimulator2goingeast",
             "eurotrucksimulator2halloweenpaintjobspack",
-            "eurotrucksimulator2icecoldpaintjobspack"
+            "eurotrucksimulator2icecoldpaintjobspack",
+            "eurotrucksimulator2irishpaintjobspack"
         ],
         "f12013": [
             "f12013classiceditionupgrade",
@@ -1641,6 +1646,46 @@ postMessage({
             "rocksmithvenuestimesaverpack",
             "rocksmithviolentfemmesblisterinthesun",
             "rocksmithwhitesnakeisthislove"
+        ],
+        "rpgmakervxace": [
+            "rpgmakeradventurersjourney",
+            "rpgmakerarabiannights",
+            "rpgmakercinematicsoundtrackmusicpack",
+            "rpgmakerclassicfantasymusicpack",
+            "rpgmakerdsresourcepack",
+            "rpgmakeregyptianmythbattlers",
+            "rpgmakerfantasyadventureminimusicpack",
+            "rpgmakerfantasyherocharacterpack",
+            "rpgmakerfrontierworksfuturisticheroesandbgm",
+            "rpgmakerfuturisticatmospheres",
+            "rpgmakerfuturistictilesresourcepack",
+            "rpgmakergyrowolfsmusicresourcepack001",
+            "rpgmakerhighfantasy2resourcepack",
+            "rpgmakerhighfantasymainpartypack1",
+            "rpgmakerhighfantasymainpartypackii",
+            "rpgmakerhighfantasyresourcepack",
+            "rpgmakerhighfantasythedeep",
+            "rpgmakerinspirationalvol1",
+            "rpgmakerinspirationalvol2",
+            "rpgmakerjsmfuturisticmusicpack",
+            "rpgmakermoderndaytilesresourcepack",
+            "rpgmakermodernmusicmegapack",
+            "rpgmakermonsterlegacy1",
+            "rpgmakermythoshorrorresourcepack",
+            "rpgmakeroldschoolmodernresourcepack",
+            "rpgmakerroyaltilesresourcepack",
+            "rpgmakerruralfarmtilesresourcepack",
+            "rpgmakersamurairesourcepack",
+            "rpgmakersinisterhollows",
+            "rpgmakersurvivalhorrormusicpack",
+            "rpgmakertheadventurersjourney2",
+            "rpgmakertheblackheartpowermusicpack",
+            "rpgmakerthenothingbattlesmusicpack",
+            "rpgmakerthesimplelifemusicpack",
+            "rpgmakertylerwarrenfirst50battlerpack",
+            "rpgmakertylerwarrenrpgbattlers2nd50",
+            "rpgmakerzombiesurvivalgraphicpack",
+            "rpgmakerzonderland"
         ],
         "ruse": [
             "rusethechimerapack",
