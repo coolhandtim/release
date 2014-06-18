@@ -387,8 +387,13 @@ postMessage({
             "commanderconquestoftheamericaspiratetreasurechest"
         ],
         "companyofheroes2": [
+            "coh2germancommanderstormdoctrine",
+            "coh2germanskinlfourcolordisruptivepattern",
+            "coh2sovietskinlfourcolorbelorussianfront",
             "companyofheroes2casebluemissionpack",
+            "companyofheroes2germanskinfourcolordisruptivepatternbundle",
             "companyofheroes2southernfrontsmissionpack",
+            "companyofheroes2sovietskinfourcolorbelorussianfrontpack",
             "companyofheroes2victoryatstalingradmissionpack"
         ],
         "continentoftheninthseal": [
