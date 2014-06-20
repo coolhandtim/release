@@ -1,3 +1,12 @@
+function test_error
+{
+	echo "testing for error"
+	if [$? != "0"]; then
+		echo "error found, exiting"
+		exit 1
+	fi
+}
+
 git checkout "${TRAVIS_BRANCH}"
 
 if [ "$TRAVIS_BRANCH" = "master" ]; then
@@ -17,6 +26,7 @@ if [ "$TRAVIS_BRANCH" = "master" ]; then
 	test_error
 
 	echo "pushing to git"
+	set -x
 	git config user.name "${GIT_NAME}"
 	git config user.email "${GIT_EMAIL}"
 	git status
@@ -24,6 +34,7 @@ if [ "$TRAVIS_BRANCH" = "master" ]; then
 	git add steamgifts-plus.min.js
 	git commit -m "Auto-generated minified js [ci skip]"
 	git push https://${GH_TOKEN}@github.com/psyren89/release.git
+	set +x
 elif [ "$TRAVIS_BRANCH" = "gh-pages" ]; then
 	echo "on gh-pages branch"
 
@@ -33,12 +44,3 @@ elif [ "$TRAVIS_BRANCH" = "gh-pages" ]; then
 	echo "pushing to git"
 	git push origin gh-pages
 fi
-
-function test_error
-{
-	echo "testing for error"
-	if [$? != "0"]; then
-		echo "error found, exiting"
-		exit 1
-	fi
-}
