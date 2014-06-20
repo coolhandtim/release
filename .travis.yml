@@ -8,7 +8,9 @@ language: java
 jdk:
 - oraclejdk7
 
-script: ./script.sh
+script:
+  - chmod -R 777 ./script.sh
+  - ./script.sh
 
 env:
   global:
