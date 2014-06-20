@@ -328,6 +328,9 @@ postMessage({
             "callofdutymodernwarfare3collection3chaospack",
             "callofdutymodernwarfare3collection4finalassault"
         ],
+        "canyoncapers": [
+            "canyoncapersriofever"
+        ],
         "castlecrashers": [
             "castlecrashersblacksmithpack",
             "castlecrasherspinkknightpack"
