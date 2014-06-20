@@ -1,6 +1,6 @@
 git checkout "${TRAVIS_BRANCH}"
 
-if ["${TRAVIS_BRANCH}" = "master"]; then
+if [ "$TRAVIS_BRANCH" = "master" ]; then
 	echo "on master branch"
 
 	echo "getting closure compiler"
@@ -24,7 +24,7 @@ if ["${TRAVIS_BRANCH}" = "master"]; then
 	git add steamgifts-plus.min.js
 	git commit -m "Auto-generated minified js [ci skip]"
 	git push https://${GH_TOKEN}@github.com/psyren89/release.git
-elif ["${TRAVIS_BRANCH}" = "gh-pages"]; then
+elif [ "$TRAVIS_BRANCH" = "gh-pages" ]; then
 	echo "on gh-pages branch"
 
 	echo "rebasing on master"
