@@ -7,12 +7,7 @@ function test_error
 	fi
 }
 
-git checkout "${TRAVIS_BRANCH}"
-
-if [ "$TRAVIS_BRANCH" = "master" ]; then
-	echo "on master branch"
-
-	echo "getting closure compiler"
+echo "getting closure compiler"
 	mkdir -p vendor/java
 	wget http://dl.google.com/closure-compiler/compiler-latest.zip && unzip compiler-latest.zip -d vendor/java/compiler
 	export CLOSURE_JAR=vendor/java/compiler/compiler.jar
@@ -27,20 +22,11 @@ if [ "$TRAVIS_BRANCH" = "master" ]; then
 
 	echo "pushing to git"
 	set -x
-	git config user.name "${GIT_NAME}"
-	git config user.email "${GIT_EMAIL}"
 	git status
 	git add dlc.min.js
 	git add steamgifts-plus.min.js
 	git commit -m "Auto-generated minified js [ci skip]"
-	git push https://${GH_TOKEN}@github.com/psyren89/release.git
+	git push origin master
+	git push origin :gh-pages
 	set +x
-elif [ "$TRAVIS_BRANCH" = "gh-pages" ]; then
-	echo "on gh-pages branch"
-
-	echo "rebasing on master"
-	git rebase master
-
-	echo "pushing to git"
-	git push origin gh-pages
 fi
