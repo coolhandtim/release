@@ -9,7 +9,7 @@ function test_error
 
 echo "getting closure compiler"
 	mkdir -p vendor/java
-	wget http://dl.google.com/closure-compiler/compiler-latest.zip && unzip compiler-latest.zip -d vendor/java/compiler
+	curl http://dl.google.com/closure-compiler/compiler-latest.zip && unzip compiler-latest.zip -d vendor/java/compiler
 	export CLOSURE_JAR=vendor/java/compiler/compiler.jar
 
 	echo "running closure compiler on dlc"
