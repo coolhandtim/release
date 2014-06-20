@@ -6,7 +6,7 @@ branches:
     - gh-pages
 language: java
 jdk:
-- oraclejdk7
+  - oraclejdk7
 
 script:
   - chmod -R 777 ./script.sh
