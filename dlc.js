@@ -391,7 +391,9 @@ postMessage({
         ],
         "companyofheroes2": [
             "coh2germancommanderstormdoctrine",
+            "coh2germanskinhfourcolordisruptivepattern",
             "coh2germanskinlfourcolordisruptivepattern",
+            "coh2sovietskinhfourcolorbelorussianfront",
             "coh2sovietskinlfourcolorbelorussianfront",
             "companyofheroes2casebluemissionpack",
             "companyofheroes2germanskinfourcolordisruptivepatternbundle",
