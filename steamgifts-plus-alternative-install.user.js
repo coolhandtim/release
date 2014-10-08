@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name        	SteamGifts Plus Alternative
-// @version     	20140301
-// @namespace   	steamgiftsplus
+// @name        	SteamGifts Plus Alternative Tim
+// @version     	20141008
+// @namespace   	steamgiftsplus_tim
 // @description    	Adds various features.
 // @copyright      	2012 Kaitlyn <reowkaitlyn@gmail.com>
 // @license        	MIT; http://en.wikipedia.org/wiki/Mit_license
