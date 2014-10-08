@@ -1,5 +1,8 @@
 postMessage({
     "dlc": {
+        "99spirits": [
+            "99spiritsartbookmusiccollection"
+        ],
         "aaaaaaarecklessdisregardforgravity": [
             "aaaaabrutalconcussion"
         ],
@@ -18,7 +21,8 @@ postMessage({
             "agameofdwarvesstardwarves"
         ],
         "agarestgenerationsofwar": [
-            "agarestjackpackdlc"
+            "agarestjackpackdlc",
+            "agarestgenerationsofwardlcbundle1"
         ],
         "ageofconanunchained": [
             "ageofconanunchainedtortagesurvivalpack"
@@ -687,7 +691,8 @@ postMessage({
             "eurotrucksimulator2halloweenpaintjobspack",
             "eurotrucksimulator2icecoldpaintjobspack",
             "eurotrucksimulator2irishpaintjobspack",
-            "eurotrucksimulator2ukpaintjobspack"
+            "eurotrucksimulator2ukpaintjobspack",
+            "eurotrucksimulator2scottishpaintjobspack"
         ],
         "f12013": [
             "f12013classiceditionupgrade",
@@ -1298,6 +1303,9 @@ postMessage({
         ],
         "overcastwaldenandthewerewolf": [
             "overcastwaldenandthewerewolfsoundtrack"
+        ],
+        "pacmanchampionshipeditiondx": [
+            "pacmanchampionshipeditiondxpacstepsbgm"
         ],
         "painkillerhellanddamnation": [
             "painkillerhellanddamnationcollectorseditionupgrade",
@@ -2374,6 +2382,10 @@ postMessage({
             "portsmouthdirectlinerouteaddon",
             "southwesttrainsclass444emuaddon"
         ],
+        "trainsimulator2015": [
+            "040saddletankpack2addonloco",
+            "dbbr145locoaddon"
+        ],
         "trainzsimulator12": [
             "trainzsimulatordlcaerotrain",
             "trainzsimulatordlcbluecomet",
@@ -2483,6 +2495,12 @@ postMessage({
             "warlockmasterofthearcanepowerfullords",
             "warlockmasterofthearcanepoweroftheserpent",
             "warlockmasterofthearcanereturnoftheelves"
+        ],
+        "warlock2theexiled": [
+            "warlock2ebookthegreatmagegame"
+        ],
+        "warofthehumantanks": [
+            "soundofthehumantanks"
         ],
         "waroftheroseskingmaker": [
             "waroftherosesbrianblessedvo"
