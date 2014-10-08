@@ -686,7 +686,8 @@ postMessage({
             "eurotrucksimulator2goingeast",
             "eurotrucksimulator2halloweenpaintjobspack",
             "eurotrucksimulator2icecoldpaintjobspack",
-            "eurotrucksimulator2irishpaintjobspack"
+            "eurotrucksimulator2irishpaintjobspack",
+            "eurotrucksimulator2ukpaintjobspack"
         ],
         "f12013": [
             "f12013classiceditionupgrade",
