@@ -2569,7 +2569,7 @@ function binarySearch(value, items) {
 
             var scriptDLC = document.createElement('script');
             scriptDLC.type = 'text/javascript';
-            scriptDLC.src = 'http://psyren89.github.io/release/dlc.min.js';
+            scriptDLC.src = 'https://github.com/coolhandtim/release/blob/master/dlc.js';
             document.head.appendChild(scriptDLC);
         }
     }
