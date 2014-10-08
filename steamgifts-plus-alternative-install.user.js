@@ -14,6 +14,6 @@
 if (window.top == window) {
 	var steamgiftsPlus = document.createElement('script');
 	steamgiftsPlus.type = 'text/javascript';
-	steamgiftsPlus.src = 'https://github.com/coolhandtim/release/blob/master/steamgifts-plus.js';
+	steamgiftsPlus.src = 'https://raw.githubusercontent.com/coolhandtim/release/master/steamgifts-plus.js';
 	document.body.appendChild(steamgiftsPlus);
 }
