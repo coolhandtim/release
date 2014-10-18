@@ -1,7 +1,8 @@
 postMessage({
     "dlc": {
         "99spirits": [
-            "99spiritsartbookmusiccollection"
+            "99spiritsartbookmusiccollection",
+            "99spiritscageofnight"
         ],
         "aaaaaaarecklessdisregardforgravity": [
             "aaaaabrutalconcussion"
@@ -851,6 +852,7 @@ postMessage({
             "hackerevolutiondualityhardcorepackage1",
             "hackerevolutiondualityhardcorepackagepart2",
             "hackerevolutiondualityinceptiondlc",
+            "hackerevolutiondualityinceptionpart1dlc",
             "hackerevolutiondualityinceptionpart2dlc"
         ],
         "hackerevolutionuntold": [
@@ -1336,7 +1338,9 @@ postMessage({
             "payday2armoredtransport",
             "payday2gageweaponpack01",
             "payday2gageweaponpack02",
-            "payday2officialsoundtrack"
+            "payday2officialsoundtrack",
+            "payday2hotlinemiami",
+            "payday2thebigbankheist"
         ],
         "paydaytheheist": [
             "paydaytheheistsoundtrack",
