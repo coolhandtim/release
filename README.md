@@ -1,8 +1,7 @@
-release
+Release
 =======
 
-When updating DLC manually (via the SGP settings page, advanced section): please wait a few seconds (5 at most) to be sure that the DLC list has fully downloaded before navigating away from the page. I found out the hard way that there's no way to ensure that the DLC list fully updates if users navigate away from the page.
-The script should automatically check for DLC updates every 6 hours on page loads.
+When updating DLC manually (via the SGP settings page, advanced section), please wait a few seconds (5 at most) to be sure that the DLC list has fully downloaded before navigating away from the page. I found out the hard way that there's no way to ensure that the DLC list fully updates if users navigate away from the page. The script should automatically check for DLC updates every 6 hours on page loads.
 
 If you find that this still doesn't work, try a force refresh (Ctrl + F5, or Cmd + shift + R if you're on a Mac).
 
