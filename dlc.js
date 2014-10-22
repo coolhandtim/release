@@ -1,5 +1,8 @@
 postMessage({
     "dlc": {
+        "100orangejuice": [
+            "100orangejuicesyurananakocharacterpack"
+        ],
         "99spirits": [
             "99spiritsartbookmusiccollection",
             "99spiritscageofnight"
@@ -167,7 +170,8 @@ postMessage({
             "awesomenautsstarstorm",
             "awesomenautssusiannouncer",
             "awesomenautsteddyayla",
-            "awesomenautstitaniumted"
+            "awesomenautstitaniumted",
+            "awesomenautspowerpack"
         ],
         "babelrising": [
             "babelrisingskysthelimitdlc"
@@ -484,6 +488,9 @@ postMessage({
         ],
         "darwinia": [
             "darwiniasoundtrack"
+        ],
+        "deadbits": [
+            "deadbitssoundtrack"
         ],
         "deadisland": [
             "deadislandbloodbatharenadlc",
@@ -899,6 +906,9 @@ postMessage({
             "heroacademytribepack",
             "heroacademyuniformcolors"
         ],
+        "herosiege": [
+            "herosiegethecarpofdoom"
+        ],
         "highborn": [
             "highbornchapter2"
         ],
@@ -1265,6 +1275,9 @@ postMessage({
             "mightmagicheroesvidansemacabreadventurepack",
             "mightmagicheroesvipiratesofthesavageseaadventurepack"
         ],
+        "motogp14": [
+            "motogp14lagunasecaredbullusgrandprix"
+        ],
         "mountbladewarband": [
             "mountbladewarbandnapoleonicwars"
         ],
@@ -1336,9 +1349,13 @@ postMessage({
         "payday2": [
             "payday2amerrypaydaychristmassoundtrack",
             "payday2armoredtransport",
+            "payday2gageassaultpack",
+            "payday2gagemodcourier",
+            "payday2gageshotgunpack",
+            "payday2gagesniperpack",
             "payday2gageweaponpack01",
             "payday2gageweaponpack02",
-            "payday2officialsoundtrack",
+            "payday2theofficialsoundtrack",
             "payday2hotlinemiami",
             "payday2thebigbankheist"
         ],
@@ -1782,6 +1799,7 @@ postMessage({
             "section8prejudiceoverdrivemappack"
         ],
         "serioussam3bfe": [
+            "serioussam3bfebonuspack",
             "serioussam3jewelofthenile"
         ],
         "serioussamhdthesecondencounter": [
@@ -2387,6 +2405,7 @@ postMessage({
             "southwesttrainsclass444emuaddon"
         ],
         "trainsimulator2015": [
+            "040saddletankpack1addonloco"
             "040saddletankpack2addonloco",
             "dbbr145locoaddon"
         ],
