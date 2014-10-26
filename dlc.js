@@ -1322,9 +1322,9 @@ postMessage({
         "pacmanchampionshipeditiondx": [
             "pacmanchampionshipeditiondxpacstepsbgm"
         ],
-        "painkillerhellanddamnation": [
-            "painkillerhellanddamnationcollectorseditionupgrade",
-            "painkillerhellanddamnationheavensabove",
+        "painkillerhelldamnation": [
+            "painkillerhelldamnationcollectorseditionupgrade",
+            "painkillerhelldamnationheavensabove",
             "painkillerhelldamnationdigitalextras",
             "painkillerhelldamnationfullmetalrocket",
             "painkillerhelldamnationmedievalhorror",
