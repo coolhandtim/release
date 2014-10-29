@@ -38,6 +38,7 @@ postMessage({
         "aiwarfleetcommand": [
             "aiwarancientshadows",
             "aiwarchildrenofneinzul",
+            "aiwardestroyerofworlds",
             "aiwarlightofthespire",
             "aiwarthezenithremnant",
             "aiwarvengeanceofthemachine"
@@ -408,6 +409,7 @@ postMessage({
             "companyofheroes2germanskinfourcolordisruptivepatternbundle",
             "companyofheroes2southernfrontsmissionpack",
             "companyofheroes2sovietskinfourcolorbelorussianfrontpack",
+            "companyofheroes2thewesternfrontarmies",
             "companyofheroes2victoryatstalingradmissionpack"
         ],
         "continentoftheninthseal": [
